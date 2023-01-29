@@ -6,7 +6,7 @@ const data = {
     firstname: 'tony',
     lastname: 'Stark',
     email: 'tony.stark@gladysassistant.com',
-    language: 'en',
+    language: 'ru',
     birthdate: '2011-02-04',
     role: 'admin',
     created_at: '2019-02-20T04:26:47.811Z',
@@ -22,7 +22,7 @@ const data = {
     lastname: 'Stark',
     selector: 'tony',
     email: 'tony.stark@gladysassistant.com',
-    language: 'en',
+    language: 'ru',
     birthdate: '2011-02-04',
     role: 'admin',
     created_at: '2019-02-20T04:26:47.811Z',
@@ -52,7 +52,7 @@ const data = {
     firstname: 'tony',
     lastname: 'Stark',
     email: 'tony.stark@gladysassistant.com',
-    language: 'en',
+    language: 'ru',
     birthdate: '2011-02-04',
     role: 'admin',
     created_at: '2019-02-20T04:26:47.811Z',
@@ -67,7 +67,7 @@ const data = {
     firstname: 'tony',
     lastname: 'Stark',
     email: 'tony.stark@gladysassistant.com',
-    language: 'en',
+    language: 'ru',
     birthdate: '2011-02-04',
     role: 'admin',
     created_at: '2019-02-20T04:26:47.811Z',
@@ -235,7 +235,7 @@ const data = {
     options: {
       latitude: 12,
       longitude: 12,
-      language: 'en'
+      language: 'ru'
     },
     hours: [
       {
@@ -887,7 +887,7 @@ const data = {
     selector: 'tony',
     email: 'tony.stark@gladysassistant.com',
     birthdate: '2011-02-04',
-    language: 'en',
+    language: 'ru',
     role: 'admin'
   },
   'get /api/v1/user/pepper': {
@@ -897,7 +897,7 @@ const data = {
     selector: 'pepper',
     email: 'pepper.pots@gladysassistant.com',
     birthdate: '2011-02-04',
-    language: 'en',
+    language: 'ru',
     role: 'admin'
   },
   'get /api/v1/scene/wake-up': {

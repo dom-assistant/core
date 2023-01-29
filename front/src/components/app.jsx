@@ -285,7 +285,7 @@ class MainApp extends Component {
   }
 
   render({ user }, {}) {
-    const translationDefinition = get(translations, user.language, { default: translations.en });
+    const translationDefinition = get(translations, user.language, { default: translations.ru });
     return (
       <IntlProvider definition={translationDefinition}>
         <AppRouter />

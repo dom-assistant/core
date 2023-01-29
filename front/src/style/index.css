@@ -223,8 +223,8 @@ body {
 .custom-file-input:lang(en) ~ .custom-file-label::after {
   content: 'Browse';
 }
-.custom-file-input:lang(fr) ~ .custom-file-label::after {
-  content: 'Parcourir';
+.custom-file-input:lang(ru) ~ .custom-file-label::after {
+  content: 'Обзор';
 }
 .cursor-pointer {
   pointer-events: auto;

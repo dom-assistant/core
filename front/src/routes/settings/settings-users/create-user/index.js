@@ -59,7 +59,7 @@ class SettingsUsers extends Component {
       lastname: '',
       selector: '',
       email: '',
-      language: 'en',
+      language: 'ru',
       role: 'admin',
       birthdateYear: null,
       birthdateMonth: null,
@@ -73,7 +73,7 @@ class SettingsUsers extends Component {
       firstname: '',
       lastname: '',
       email: '',
-      language: 'en',
+      language: 'ru',
       role: 'admin',
       birthdateYear: null,
       birthdateMonth: null

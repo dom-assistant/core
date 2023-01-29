@@ -129,11 +129,11 @@ const Profile = ({ children, ...props }) => {
           <Text id="profile.languageLabel" />
         </label>
         <select value={props.newUser.language} onChange={props.updateLanguage} class="form-control">
+          <option value="ru">
+            <Text id="profile.russian" />
+          </option>
           <option value="en">
             <Text id="profile.english" />
-          </option>
-          <option value="fr">
-            <Text id="profile.french" />
           </option>
         </select>
       </div>

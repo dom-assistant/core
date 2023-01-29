@@ -26,7 +26,7 @@ const UserPage = ({ children, ...props }) => (
                   <Text id="usersSettings.editUser.success" />
                 </div>
               )}
-              {props.newUser && <Profile {...props} language="en" disablePassword />}
+              {props.newUser && <Profile {...props} language="ru" disablePassword />}
               <div class="form-group">
                 <button onClick={props.updateUser} class="btn btn-success">
                   <Text id="profile.saveButton" />

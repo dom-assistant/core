@@ -23,7 +23,7 @@ const UserPage = ({ children, ...props }) => (
             <div class="dimmer-content">
               <div class="row justify-content-center">
                 <div class="col-lg-8">
-                  {props.newUser && <Profile {...props} editingOtherUser language="en" />}
+                  {props.newUser && <Profile {...props} editingOtherUser language="ru" />}
                   <div class="form-group">
                     <button onClick={props.createUser} class="btn btn-success">
                       <Text id="usersSettings.createUser.createUserButton" />

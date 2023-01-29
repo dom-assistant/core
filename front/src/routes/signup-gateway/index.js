@@ -5,8 +5,8 @@ import SignupForm from './SignupForm';
 import SignupBase from './SignupBase';
 import SignupGeneratingKeys from './SignupGeneratingKeys';
 
-const ACCEPTED_LANGUAGES = ['en', 'fr'];
-const DEFAULT_LANGUAGE = 'en';
+const ACCEPTED_LANGUAGES = ['en', 'ru'];
+const DEFAULT_LANGUAGE = 'ru';
 
 @connect('session', {})
 class SignupPage extends Component {

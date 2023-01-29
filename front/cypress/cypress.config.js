@@ -21,7 +21,7 @@ module.exports = defineConfig({
       });
 
       // Load NODE env variables
-      const language = process.env.LANGUAGE || 'en';
+      const language = process.env.LANGUAGE || 'ru';
       config.env.language = language;
 
       const serverUrl = process.env.LOCAL_API_URL || 'http://localhost:1443';
