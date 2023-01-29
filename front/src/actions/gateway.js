@@ -443,7 +443,7 @@ function createActions(store) {
         lastname: 'temp-user',
         password: 'temp-password',
         role: 'admin',
-        email: 'temp-user@test.fr',
+        email: 'temp-user@test.ru',
         language,
         birthdate: new Date()
       });
