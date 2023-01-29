@@ -323,14 +323,14 @@
       "restartButton": "Restart",
       "stopButton": "Stop",
       "menu": {
-        "all": "All integrations",
-        "device": "Devices",
-        "communication": "Communication",
-        "calendar": "Calendar",
-        "music": "Music",
-        "health": "Health",
-        "weather": "Weather",
-        "navigation": "navigation"
+        "all": "Все интеграции",
+        "device": "Устройства",
+        "communication": "Комуникации",
+        "calendar": "Календарь",
+        "music": "Музыка",
+        "health": "Здоровье",
+        "weather": "Погода",
+        "navigation": "Навигация"
       }
     },
     "telegram": {
@@ -626,6 +626,16 @@
     "openWeather": {
       "title": "OpenWeather API",
       "description": "Display the weather in your town on your dasboard.",
+      "introduction": "This integration helps you integrate with OpenWeather API to get the weather in Gladys.",
+      "instructions": "You first need to create an account on OpenWeather API website: <a href=\"https://openweathermap.org/api\">https://openweathermap.org/api</a>.",
+      "apiKeyLabel": "Then, enter your API key here:",
+      "apiKeyPlaceholder": "Enter OpenWeather API key",
+      "saveButton": "Save",
+      "instructionsToUse": "To use this integration, go to the dashboard and create a weather box."
+    },
+    "yandexWeather": {
+      "title": "Yandex Погода",
+      "description": "Погода от Yandex.",
       "introduction": "This integration helps you integrate with OpenWeather API to get the weather in Gladys.",
       "instructions": "You first need to create an account on OpenWeather API website: <a href=\"https://openweathermap.org/api\">https://openweathermap.org/api</a>.",
       "apiKeyLabel": "Then, enter your API key here:",

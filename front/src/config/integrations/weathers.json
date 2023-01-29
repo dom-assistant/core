@@ -2,5 +2,9 @@
   {
     "key": "openWeather",
     "img": "/assets/integrations/cover/openweather.jpg"
+  },
+  {
+    "key": "yandexWeather",
+    "img": "/assets/integrations/cover/yandexweather.jpg"
   }
 ]
