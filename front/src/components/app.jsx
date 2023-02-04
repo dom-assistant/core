@@ -73,6 +73,7 @@ import CalDAVAccountPage from '../routes/integration/all/caldav/account-page';
 import CalDAVSyncPage from '../routes/integration/all/caldav/sync-page';
 import CalDAVSharePage from '../routes/integration/all/caldav/share-page';
 import OpenWeatherPage from '../routes/integration/all/openweather';
+import YandexWeatherPage from '../routes/integration/all/yandexweather';
 import PhilipsHueSetupPage from '../routes/integration/all/philips-hue/setup-page';
 import PhilipsHueDevicePage from '../routes/integration/all/philips-hue/device-page';
 import TPLinkDevicePage from '../routes/integration/all/tp-link/device-page';
