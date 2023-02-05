@@ -1,7 +1,7 @@
 {
     "global": {
         "logoAlt": "Dass logo",
-        "needHelpText": "Нужна помощь?  <a href=\"https://community.gladysassistant.com/\" target=\"_blank\" rel=\"noopener noreferrer\"> Форум Dom Assisatnt</a>.",
+        "needHelpText": "Нужна помощь?  Присоединяйтесь к нам на <a href=\"https://community.gladysassistant.com/\" target=\"_blank\" rel=\"noopener noreferrer\"> Форуме Dom Assisatnt</a>.",
         "new": "Новый",
         "orderDirAsc": "А - Я",
         "orderDirDesc": "Я - А",
