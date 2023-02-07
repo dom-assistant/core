@@ -198,6 +198,10 @@
     "gatewayInstanceNotFoundError": "Your Gladys instance is not connected to the Gladys Gateway",
     "editDashboardNameLabel": "Name",
     "editDashboardMyDashboards": "My dashboards",
+    "editDashboardExplanation": "Each dashboard has 3 columns, which you can fill in according to your preferences. Click on the + button to add a new widget. You can move this widget by grabbing it by the star at the top right of it.",
+    "addBoxButton": "Add",
+    "selectBoxType": "Select a type",
+    "selectBoxTypeLabel": "Choose which widget to display here",
     "boxTitle": {
       "weather": "Weather",
       "temperature-in-room": "Temperature in room",
@@ -211,7 +215,6 @@
     },
     "boxes": {
       "column": "Column {{index}}",
-      "dragAndDrop": "Drag and drop me here",
       "deleteButton": "Delete",
       "weather": {
         "editHouseLabel": "Select a house. I will use its latitude/longitude to get the weather.",
@@ -1810,7 +1813,8 @@
     "bytes-per-second": "Bytes per second (B/s)",
     "kilobytes-per-second": "kilobytes per second (kB/s)",
     "megabytes-per-second": "Megabytes per second (MB/s)",
-    "gigabytes-per-second": "Gigabytes per second (GB/s)"
+    "gigabytes-per-second": "Gigabytes per second (GB/s)",
+    "aqi": "Air Quality Index"
   },
   "deviceFeatureUnitShort": {
     "celsius": "°C",
@@ -1881,7 +1885,8 @@
     "bytes-per-second": "B/s",
     "kilobytes-per-second": "kB/s",
     "megabytes-per-second": "MB/s",
-    "gigabytes-per-second": "GB/s"
+    "gigabytes-per-second": "GB/s",
+    "aqi": "AQI"
   },
   "deviceFeatureAction": {
     "category": {
@@ -2148,6 +2153,10 @@
     "thermostat": {
       "shortCategoryName": "Thermostat",
       "target-temperature": "Thermostat Temperature"
+    },
+    "airquality-sensor": {
+      "shortCategoryName": "Air Quality",
+      "aqi": "Air Quality Index"
     },
     "unknown": {
       "shortCategoryName": "Unknown",
