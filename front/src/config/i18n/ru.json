@@ -1,7 +1,7 @@
 {
     "global": {
         "logoAlt": "Dass logo",
-        "needHelpText": "Нужна помощь?  Присоединяйтесь к нам на <a href=\"https://community.gladysassistant.com/\" target=\"_blank\" rel=\"noopener noreferrer\"> Форуме Dom Assisatnt</a>.",
+        "needHelpText": "Нужна помощь? Присоединяйтесь к нам на <a href=\"https://community.gladysassistant.com/\" target=\"_blank\" rel=\"noopener noreferrer\"> Форуме Dom Assisatnt</a>.",
         "new": "Новый",
         "orderDirAsc": "А - Я",
         "orderDirDesc": "Я - А",
@@ -54,7 +54,7 @@
         "houseStep": "Настройки платформы",
         "success": "Готово!",
         "cardTitle": "Войти в аккаунт",
-        "loginWithGladysGatewayButton": "Войти с  Dom Assisatnt Плюс",
+        "loginWithGladysGatewayButton": "Войти с Dom Assisatnt Плюс",
         "emailLabel": "Email Адрес",
         "emailPlaceholder": "Введите ваш email",
         "passwordLabel": "Пароль",
@@ -63,7 +63,7 @@
         "loginButtonText": "Вход",
         "wrongCredentials": "Неправильный email/пароль.",
         "invalidEmail": "Не правильный email",
-        "needHelpText": "Нужна помощь?  <a href=\"https://community.gladysassistant.com/\" target=\"_blank\" rel=\"noopener noreferrer\"> Dom Assistant Форум</a>."
+        "needHelpText": "Нужна помощь? <a href=\"https://community.gladysassistant.com/\" target=\"_blank\" rel=\"noopener noreferrer\"> Dom Assistant Форум</a>."
     },
     "signup": {
         "welcome": {
@@ -120,33 +120,33 @@
         },
         "restoreBackupSetBackupKey": {
             "title": "Введите ваш ключ восстановления",
-            "description": "Поскольку резервные копии  полностью зашифрованы, нам нужно, чтобы вы ввели свой резервный ключ. Ваш локальный экземпляр может расшифровать резервную копию только с помощью этого резервного ключа.",
+            "description": "Поскольку резервные копии полностью зашифрованы, нам нужно, чтобы вы ввели свой резервный ключ. Ваш локальный экземпляр может расшифровать резервную копию только с помощью этого резервного ключа.",
             "backupKeyLabel": "Ключ восстановления",
             "backupKeyPlaceholder": "Enter your backup key",
-            "cancelButton": "Cancel",
-            "saveButton": "Save backup key"
+            "cancelButton": "Отмена",
+            "saveButton": "Сохранить ключ восстановления"
         },
         "restoreBackupInProgress": {
-            "title": "Restore in progress...",
-            "description": "At the end of the restore process, Gladys will restart automatically.",
-            "errored": "Backup restore failed, maybe the restore key is not valid",
-            "updateRestoreKeyButton": "Update restore key"
+            "title": "Восстанавливаем….",
+            "description": "В конце восстановления приложение перезагрузится автоматически.",
+            "errored": "Восстановление неудачное, ключ не верен.",
+            "updateRestoreKeyButton": "Обновить ключ восстановления"
         },
         "gatewayBackup": {
-            "title": "Choose a backup",
-            "description": "Choose the backup you want to restore in this list."
+            "title": "Выбрать бэкап",
+            "description": "Выбрать бэкап для восстановления из списка."
         },
         "preferences": {
-            "title": "Your preferences",
-            "description": "You can modify those settings later.",
-            "temperatureUnitsLabel": "Temperature unit",
-            "temperatureUnitsCelsius": "Celsius (°C)",
-            "temperatureUnitsFahrenheit": "Fahrenheit (°F)",
-            "distanceUnit": "Distance unit",
-            "distanceUnitMeter": "SI (Meter)",
-            "distanceUnitUs": "Imperial/US (Miles)",
+            "title": "Ваши настройки",
+            "description": "Вы можете изменить эти настройки позже.",
+            "temperatureUnitsLabel": "Единица измерения температуры",
+            "temperatureUnitsCelsius": "Цельсий (°C)",
+            "temperatureUnitsFahrenheit": "Фаренгейт (°F)",
+            "distanceUnit": "Единица измерения расстояния",
+            "distanceUnitMeter": "СИ (Метр)",
+            "distanceUnitUs": "Империал/US (Миля)",
             "deviceStateHistoryDuration": {
-                "title": "Keep Device State History",
+                "title": "Сохраняйте историю состояния устройства",
                 "durationOneWeek": "1 week",
                 "durationOneMonth": "1 month",
                 "durationThreeMonth": "3 months",
@@ -305,7 +305,11 @@
                 "no": "No"
             }
         },
-        "editDashboardMyDashboards": "Мои панели"
+        "editDashboardMyDashboards": "Мои панели",
+        "editDashboardExplanation": "Каждая панель мониторинга имеет 3 столбца, которые вы можете заполнить в соответствии со своими предпочтениями. Нажмите на кнопку +, чтобы добавить новый виджет. Вы можете переместить этот виджет, схватив его за звездочку в правом верхнем углу.",
+        "addBoxButton": "Добавить",
+        "selectBoxType": "Выберете тип",
+        "selectBoxTypeLabel": "Выберете виджет для отображения"
     },
     "newDashboard": {
         "cardTitle": "Create a new dashboard",
@@ -1810,7 +1814,8 @@
         "bytes-per-second": "Bytes per second (B/s)",
         "kilobytes-per-second": "kilobytes per second (kB/s)",
         "megabytes-per-second": "Megabytes per second (MB/s)",
-        "gigabytes-per-second": "Gigabytes per second (GB/s)"
+        "gigabytes-per-second": "Gigabytes per second (GB/s)",
+        "aqi": "Индекс качества воздуха"
     },
     "deviceFeatureUnitShort": {
         "celsius": "°C",
@@ -1881,7 +1886,8 @@
         "bytes-per-second": "B/s",
         "kilobytes-per-second": "kB/s",
         "megabytes-per-second": "MB/s",
-        "gigabytes-per-second": "GB/s"
+        "gigabytes-per-second": "GB/s",
+        "aqi": "AQI"
     },
     "deviceFeatureAction": {
         "category": {
@@ -2152,6 +2158,10 @@
         "unknown": {
             "shortCategoryName": "Unknown",
             "unknown": "Unknown"
+        },
+        "airquality-sensor": {
+            "shortCategoryName": "Качество воздуха",
+            "aqi": "Индекс качества воздуха"
         }
     },
     "errorPage": {
