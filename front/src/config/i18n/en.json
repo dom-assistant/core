@@ -6,7 +6,7 @@
     "orderDirAsc": "A - Z",
     "orderDirDesc": "Z - A",
     "emptySelectOption": "---------",
-    "backButton": "◀️️ Назад",
+    "backButton": "◀️️ Back",
     "requiredField": "*",
     "listItem": "{{index}}.",
     "percentValue": "{{value}}%",
@@ -47,13 +47,13 @@
     "tooMuchStatesToDelete": "This device has {{count}} states in database. To prevent your Gladys instance to be slow while deleting them, we've started a delete of those states slowly in background. You can come back to delete this device later when the device will not have any states anymore. To follow the delete job, <a href=\"/dashboard/settings/jobs\">click here</a>."
   },
   "login": {
-    "title": "Dom Assistant",
-    "welcome": "Добро пожаловать",
-    "createAccountStep": "Создать аккаунт",
-    "preferencesStep": "Ваши настройки",
-    "houseStep": "Настройки платформы",
-    "success": "Готово!",
-    "cardTitle": "Войти в аккаунт",
+    "title": "Gladys Assistant",
+    "welcome": "Welcome",
+    "createAccountStep": "Create account",
+    "preferencesStep": "Your preferences",
+    "houseStep": "Configure house",
+    "success": "Success!",
+    "cardTitle": "Login to your account",
     "loginWithGladysGatewayButton": "Login with Gladys Gateway",
     "emailLabel": "Email Address",
     "emailPlaceholder": "Enter your email",
@@ -67,46 +67,45 @@
   },
   "signup": {
     "welcome": {
-      "title": "Добро пожаловать",
-      "introSentence": "Cпасибо, что выбрали наше решение. Я помощник для создания комфорта и уюта в вашем доме..",
-      "introTimeToCreateAccount": "Пришло время создать локальную учетную запись для вашей новой платформы автоматизации.",
-      "introDontWorryLocal": "Не волнуйтесь: платформа полностью самостоятельная, и вся информация, которую вы введете, сохраняется только в локальной базе данных.",
-      "introInCaseOfIssues": "Если у вас есть проблемы с установкой, проверьте наши <a href=\"https://gladysassistant.com/en/docs/\">инструкции</a> или задайте вопрос <a href=\"https://community.gladysassistant.com\">на форуме</a>.",
-      "introReadMoreGladysGateway": "Более подробно ознакомиться с нашим решением <a href=\"https://gladysassistant.com\">Dom Assistant Plus.</a>",
-      "buttonCreateAccountGladysGateway": "Восстановить из бэкапа Dom Assistant Plus",
-      "buttonCreateAccountWithEmail": "Создать локальную учетную запись"
+      "title": "Welcome to Gladys 🙋",
+      "introSentence": "First, thank you for choosing me. I'm Gladys, a privacy-friendly home assistant for your house.",
+      "introTimeToCreateAccount": "It's time to create a local account for your Gladys setup.",
+      "introDontWorryLocal": "Don't worry: Gladys is fully self-hosted, and all the information you'll enter is only saved in the local database of Gladys.",
+      "introInCaseOfIssues": "In case you have issues installing Gladys, check out our <a href=\"https://gladysassistant.com/en/docs/\">documentation</a> or ask a question on <a href=\"https://community.gladysassistant.com\">Gladys community</a>.",
+      "introReadMoreGladysGateway": "Read more about <a href=\"https://gladysassistant.com\">Gladys Plus.</a>",
+      "buttonCreateAccountGladysGateway": "Restore a Gladys Plus Backup",
+      "buttonCreateAccountWithEmail": "Create local account with your Email"
     },
     "createLocalAccount": {
-      "title": "Создайте локальную учетную запись",
-      "description": "Вся информация, введенная здесь, сохраняется только локально в базе данных.Вы можете обновить данныеt позже в любое время.",
-      "firstnameLabel": "Имя",
-      "firstnamePlaceHolder": "Введите свое имя",
-      "lastnameLabel": "Фамилия",
-      "lastnamePlaceHolder": "Введите свою фамилию",
-      "languageLabel": "Язык",
+      "title": "Create your local Gladys account",
+      "description": "All information entered here is only saved locally in Gladys database. You can update it later at any time.",
+      "firstnameLabel": "First Name",
+      "firstnamePlaceHolder": "Enter your first name",
+      "lastnameLabel": "Last Name",
+      "lastnamePlaceHolder": "Enter your last name",
+      "languageLabel": "Language",
       "english": "English",
       "french": "Français",
-      "russian": "Русский",
-      "birthdateLabel": "День рождения",
-      "birthdatePlaceHolder": "Введите дату",
-      "january": "Январь",
-      "february": "Февраль",
-      "march": "Март",
-      "april": "Апрель",
-      "may": "Май",
-      "june": "Июнь",
-      "july": "Июль",
-      "august": "Август",
-      "september": "Сентябрь",
-      "october": "Октябрь",
-      "november": "Ноябрь",
-      "december": "Декабрь",
+      "birthdateLabel": "Birthdate",
+      "birthdatePlaceHolder": "Enter your birthdate",
+      "january": "January",
+      "february": "February",
+      "march": "March",
+      "april": "April",
+      "may": "May",
+      "june": "June",
+      "july": "July",
+      "august": "August",
+      "september": "September",
+      "october": "October",
+      "november": "November",
+      "december": "December",
       "emailLabel": "Email",
-      "emailPlaceHolder": "Введите Email",
-      "passwordLabel": "Пароль (мин 8 символов)",
-      "passwordPlaceHolder": "Введите пароль",
-      "passwordRepeatLabel": "Повторите ваш пароль",
-      "passwordRepeatPlaceHolder": "Введите пароль еще раз",
+      "emailPlaceHolder": "Enter your Email",
+      "passwordLabel": "Password (min 8 characters)",
+      "passwordPlaceHolder": "Enter a password",
+      "passwordRepeatLabel": "Repeat your password",
+      "passwordRepeatPlaceHolder": "Repeat your password",
       "firstnameError": "First name is required.",
       "lastnameError": "Last name is required.",
       "emailError": "Email is not a valid email",
@@ -175,7 +174,7 @@
     },
     "success": {
       "title": "Allow me to thank you 🙏",
-      "introduction": "I'm <a href=\"https://twitter.com/pierregillesl\">Pierre-Gilles Leymarie</a>, and I founded Dom Assistant in 2013.",
+      "introduction": "I'm <a href=\"https://twitter.com/pierregillesl\">Pierre-Gilles Leymarie</a>, and I founded Gladys Assistant in 2013.",
       "thanksForChoosingOpenSource": "I would like to thank you for choosing Gladys 🙌 I hope you'll enjoy using this software as much as I enjoyed building it.",
       "ifYouWantToSupportThisSotware": "As Gladys is now my main job, I rely on contributions to make this project substainable. If you want to support Gladys and get access to additional features, read more about <a href=\"https://gladysassistant.com/plus\">Gladys Plus</a>.",
       "goToDashboardButton": "Go to Dashboard"
@@ -565,8 +564,8 @@
       "title": "Google Home",
       "description": "Control your Gladys device with your voice in Google Home",
       "longDescription": "It's possible to use Google Home to control your Gladys devices by voice. To configure Google Home with Gladys, follow this tutorial <a href=\"https://gladysassistant.com/docs/integrations/google-home/\"  target=\"_blank\" rel=\"noopener noreferrer\">in our documentation</a>.",
-      "pageTitle": "Dom Assistant",
-      "cardTitle": "Do you want to connect Dom Assistant to Google?",
+      "pageTitle": "Gladys Assistant",
+      "cardTitle": "Do you want to connect Gladys Assistant to Google?",
       "pageDescription": "By signin in, you are authorizing Google to access your devices.",
       "error": "An error occured. Please retry !",
       "connectedAs": "Connected as",
@@ -582,8 +581,8 @@
       "title": "Amazon Alexa",
       "description": "Control your Gladys device with your voice in Alexa",
       "longDescription": "It's possible to use Amazon Alexa to control your Gladys devices by voice. To configure Alexa with Gladys, follow this tutorial <a href=\"https://gladysassistant.com/docs/integrations/alexa/\"  target=\"_blank\" rel=\"noopener noreferrer\">in our documentation</a>.",
-      "pageTitle": "Dom Assistant",
-      "cardTitle": "Do you want to connect Dom Assistant to Amazon Alexa?",
+      "pageTitle": "Gladys Assistant",
+      "cardTitle": "Do you want to connect Gladys Assistant to Amazon Alexa?",
       "pageDescription": "By signin in, you are authorizing Alexa to access your devices.",
       "error": "An error occured. Please retry !",
       "connectedAs": "Connected as",
@@ -631,16 +630,6 @@
     },
     "openWeather": {
       "title": "OpenWeather API",
-      "description": "Display the weather in your town on your dasboard.",
-      "introduction": "This integration helps you integrate with OpenWeather API to get the weather in Gladys.",
-      "instructions": "You first need to create an account on OpenWeather API website: <a href=\"https://openweathermap.org/api\">https://openweathermap.org/api</a>.",
-      "apiKeyLabel": "Then, enter your API key here:",
-      "apiKeyPlaceholder": "Enter OpenWeather API key",
-      "saveButton": "Save",
-      "instructionsToUse": "To use this integration, go to the dashboard and create a weather box."
-    },
-    "yandexWeather": {
-      "title": "Yandex Weather API",
       "description": "Display the weather in your town on your dasboard.",
       "introduction": "This integration helps you integrate with OpenWeather API to get the weather in Gladys.",
       "instructions": "You first need to create an account on OpenWeather API website: <a href=\"https://openweathermap.org/api\">https://openweathermap.org/api</a>.",
@@ -1413,7 +1402,6 @@
     "languageLabel": "Language",
     "english": "English",
     "french": "Français",
-    "russian": "Русский",
     "roleLabel": "Role",
     "passwordLabel": "Password (min 8 characters)",
     "passwordPlaceholder": "Enter your password",
@@ -1525,7 +1513,7 @@
     "action": "Action"
   },
   "forgotPassword": {
-    "title": "Dom Assistant",
+    "title": "Gladys Assistant",
     "cardTitle": "Recover your password",
     "emailLabel": "Email",
     "backToLogin": "Back to login",
@@ -1545,7 +1533,7 @@
     "confirmationInProgress": "Confirmation in progress..."
   },
   "resetPassword": {
-    "title": "Dom Assistant",
+    "title": "Gladys Assistant",
     "cardTitle": "Reset your password",
     "passwordLabel": "Password (min 8 characters)",
     "passwordPlaceholder": "Enter your password",
@@ -1568,7 +1556,7 @@
   },
   "jobsSettings": {
     "jobsTitle": "Background tasks",
-    "jobsDescription": "This view is a bit more technical than the rest of Dom Assistant. The goal of this view is to help you have a better idea of what's running in the background, and in case you wonder why something is wrong in Gladys, you can come here to debug what happened.",
+    "jobsDescription": "This view is a bit more technical than the rest of Gladys Assistant. The goal of this view is to help you have a better idea of what's running in the background, and in case you wonder why something is wrong in Gladys, you can come here to debug what happened.",
     "jobType": "Type",
     "jobProgress": "%",
     "jobStatus": "Status",
@@ -1583,7 +1571,7 @@
       "vacuum": "Database cleaning"
     },
     "jobErrors": {
-      "purged-when-restarted": "Dom Assistant restarted while this job was still running, so it was purged. It doesn't mean the job has failed, it's a normal behavior."
+      "purged-when-restarted": "Gladys Assistant restarted while this job was still running, so it was purged. It doesn't mean the job has failed, it's a normal behavior."
     },
     "jobStatuses": {
       "success": "Success",
@@ -1704,7 +1692,7 @@
   },
   "gatewayPricing": {
     "pricingTitle": "Gladys Plus",
-    "pricingSentence": "Dom Assistant is free to use, but you can subscribe to Gladys Plus for additional premium features like end-to-end encrypted remote access, automatic backups and access to a REST API accessible from anywhere in the world.",
+    "pricingSentence": "Gladys Assistant is free to use, but you can subscribe to Gladys Plus for additional premium features like end-to-end encrypted remote access, automatic backups and access to a REST API accessible from anywhere in the world.",
     "whyIsGladysPlusPaid": "Why is Gladys Plus paid and not free like Gladys?",
     "whyIsGladysPlusPaidAnswer": "Gladys Plus is an online service that has cost: hosting, bandwidth, storage, development and maintenance. To support those costs, we prefer asking for a monthly fee rather than adding ads or selling users data: it's not the philosophy of the project. We respect our users privacy, and want them to own their data at home.",
     "supportOpenSource": "By subscribing to Gladys Plus, you are supporting the development of a privacy-friendly & open-source alternative. Thanks for your support ! 🙂",
@@ -1741,7 +1729,7 @@
     "confirmRestore": "Confirm",
     "cancelRestore": "Cancel",
     "restoreInProgressTitle": "Restoring backup in progress...",
-    "gladysRestartingTitle": "Dom Assistant is restarting...",
+    "gladysRestartingTitle": "Gladys Assistant is restarting...",
     "backupNowButton": "Backup now",
     "backupStarted": "Backup started...",
     "notConfigured": "Gladys Plus need to be configured to enable backups. Go to the Gladys Plus tab to configure it.",
@@ -2168,7 +2156,7 @@
   },
   "errorPage": {
     "title": "Oops... This page does not exist.",
-    "description": "If you think it's a Dom Assistant bug, please report it to our team!",
+    "description": "If you think it's a Gladys Assistant bug, please report it to our team!",
     "goBack": "Go Back"
   },
   "chat": {
@@ -2188,7 +2176,7 @@
     }
   },
   "header": {
-    "gladysAssistant": "Dom Assistant",
+    "gladysAssistant": "Gladys Assistant",
     "home": "Home",
     "chat": "Chat",
     "devices": "Devices",
@@ -2245,7 +2233,7 @@
     }
   },
   "gatewaySignup": {
-    "title": "Dom Assistant",
+    "title": "Gladys Assistant",
     "alreadyHaveAccount": "Already have an account?",
     "signin": "Sign in",
     "supportText": "Support at hello@gladysassistant.com",
@@ -2270,7 +2258,7 @@
     "paymentSuccess": "Congrats, you just subscribed to Gladys Plus. Check your email to get access to the Slack and the Gladys Gateway. Thanks for your support!"
   },
   "gatewayForgotPassword": {
-    "pageTitle": "Dom Assistant",
+    "pageTitle": "Gladys Assistant",
     "formTitle": "Gladys Plus - Forgot Password",
     "success": "If this account exist, you've receive an email with a reset password link.",
     "emailAddress": "Email Address",
@@ -2280,7 +2268,7 @@
     "signupLink": "Signup"
   },
   "gatewayResetPassword": {
-    "pageTitle": "Dom Assistant",
+    "pageTitle": "Gladys Assistant",
     "formTitle": "Gladys Plus - Reset Password",
     "incompatibleBrowserLabel": "Sorry, your browser is not compatible with the Gladys Gateway. Your browser should support the WebCrypto API as well as IndexedDB databases.",
     "errorLinkLabel": "We cannot retrieve your reset password link. Maybe it was already used or has expired!",

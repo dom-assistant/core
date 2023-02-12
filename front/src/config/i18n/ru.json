@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
     "global": {
         "logoAlt": "Dass logo",
         "needHelpText": "Нужна помощь? Присоединяйтесь к нам на <a href=\"https://community.gladysassistant.com/\" target=\"_blank\" rel=\"noopener noreferrer\"> Форуме Dom Assisatnt</a>.",
@@ -2362,4 +2363,271 @@
         "upgradeYearlyError": "An error occured while switching to the annual plan, please contact us by email.",
         "upgradeYearlySuccess": "Thanks for switching to the annual plan!"
     }
+=======
+  "login": {
+    "title": "Dom Assistant",
+    "welcome": "Добро пожаловать",
+    "createAccountStep": "Создать аккаунт",
+    "preferencesStep": "Ваши настройки",
+    "houseStep": "Настройки платформы",
+    "success": "Готово!",
+    "cardTitle": "Войти в аккаунт",
+    "loginWithGladysGatewayButton": "Login with Gladys Gateway",
+    "emailLabel": "Email Адрес",
+    "emailPlaceholder": "Введите ваш email",
+    "passwordLabel": "Пароль",
+    "forgotPasswordLabel": "Я забыл свой пароль",
+    "passwordPlaceholder": "Введите ваш пароль",
+    "loginButtonText": "Log in",
+    "wrongCredentials": "Wrong email/password.",
+    "invalidEmail": "Invalid email",
+    "needHelpText": "Нужна помощь?  <a href=\"https://community.gladysassistant.com/\" target=\"_blank\" rel=\"noopener noreferrer\"> Gladys Community</a>."
+  },
+  "signup": {
+    "welcome": {
+      "title": "Добро пожаловать",
+      "introSentence": "Cпасибо, что выбрали наше решение. Я помощник для создания комфорта и уюта в вашем доме..",
+      "introTimeToCreateAccount": "Пришло время создать локальную учетную запись для вашей новой платформы автоматизации.",
+      "introDontWorryLocal": "Не волнуйтесь: платформа полностью самостоятельная, и вся информация, которую вы введете, сохраняется только в локальной базе данных.",
+      "introInCaseOfIssues": "Если у вас есть проблемы с установкой, проверьте наши <a href=\"https://gladysassistant.com/en/docs/\">инструкции</a> или задайте вопрос <a href=\"https://community.gladysassistant.com\">на форуме</a>.",
+      "introReadMoreGladysGateway": "Более подробно ознакомиться с нашим решением <a href=\"https://gladysassistant.com\">Dom Assistant Plus.</a>",
+      "buttonCreateAccountGladysGateway": "Восстановить из бэкапа Dom Assistant Plus",
+      "buttonCreateAccountWithEmail": "Создать локальную учетную запись"
+    },
+    "createLocalAccount": {
+      "title": "Создайте локальную учетную запись",
+      "description": "Вся информация, введенная здесь, сохраняется только локально в базе данных.Вы можете обновить данныеt позже в любое время.",
+      "firstnameLabel": "Имя",
+      "firstnamePlaceHolder": "Введите свое имя",
+      "lastnameLabel": "Фамилия",
+      "lastnamePlaceHolder": "Введите свою фамилию",
+      "languageLabel": "Язык",
+      "english": "English",
+      "french": "Français",
+      "russian": "Русский",
+      "birthdateLabel": "День рождения",
+      "birthdatePlaceHolder": "Введите дату",
+      "january": "Январь",
+      "february": "Февраль",
+      "march": "Март",
+      "april": "Апрель",
+      "may": "Май",
+      "june": "Июнь",
+      "july": "Июль",
+      "august": "Август",
+      "september": "Сентябрь",
+      "october": "Октябрь",
+      "november": "Ноябрь",
+      "december": "Декабрь",
+      "emailLabel": "Email",
+      "emailPlaceHolder": "Введите Email",
+      "passwordLabel": "Пароль (мин 8 символов)",
+      "passwordPlaceHolder": "Введите пароль",
+      "passwordRepeatLabel": "Повторите ваш пароль",
+      "passwordRepeatPlaceHolder": "Введите пароль еще раз",
+      "firstnameError": "First name is required.",
+      "lastnameError": "Last name is required.",
+      "emailError": "Email is not a valid email",
+      "passwordError": "Пароль should be at least 8 characters.",
+      "passwordRepeatError": "Пароли do not match.",
+      "birthdateError": "Birthdate is required.",
+      "networkError": "Network Error: We didn't succeed in contacting your Gladys instance. Are you connected to the network? Is your Gladys instance running?",
+      "emailAlreadyExistError": "A user with this email already exist.",
+      "selectorAlreadyExistError": "A user with this first name already exist.",
+      "createAccountButton": "Create Account"
+    },
+    "configureHouse": {
+      "houseLocationLabel": "Укажите расположение объекта",
+      "roomsLabel": "Добавьте помещения",
+      "roomNamePlaceHolder": "Введите наименование помещения",
+      "addRoomButton": "Добавить",
+      "saveHouse": "Сохранить объект",
+      "deleteHouse": "Удалить объект",
+      "confirmDeleteHouse": "Подтвердите удаление объекта",
+      "cancelDeleteHouse": "Отмена",
+      "conflictError": "Объект с таким же названием уже существует.",
+      "roomConflictError": "Помещениес таким названием уже существует.",
+      "validationError": "Название объекта не должно превышать 40 символов.",
+      "validationErrorRoom": "Наименование помещения должно быть от 1 до 40 символов."
+    }
+  },
+  "dashboard": {
+    "title": "Главная",
+    "editDashboardButton": "Редактировать",
+    "newDashboardButton": "Новый",
+    "enableFullScreen": "На весь экран",
+    "disableFullScreen": "Свернуть",
+    "editDashboardTitle": "Редактировать главную",
+    "editDashboardDeleteButton": "Удалить",
+    "editDashboardCancelButton": "Отмена",
+    "editDashboardDeleteText": "Вы уверены что хотите удалить?",
+    "editDashboardSaveButton": "Сохранить",
+    "emptyDashboardSentenceTop": "Выглядит так, как будто главная не настроена.",
+    "emptyDashboardSentenceBottom": "Кликните \"Редактировать\" для настройки главной страницы.",
+    "noDashboardSentenceBottom": "Кликните \"Новый\" для создания новой панели.",
+    "gatewayInstanceNotFoundError": "Ваше приложение Dom Assistant не подключено к шлюзу Plus",
+    "editDashboardNameLabel": "Название",
+    "boxTitle": {
+      "weather": "Погода",
+      "temperature-in-room": "Температура в комнате",
+      "humidity-in-room": "Влажность в комнате",
+      "user-presence": "Присутствие пользователя",
+      "camera": "Камера",
+      "devices-in-room": "Устройства в комнате",
+      "chart": "График",
+      "ecowatt": "Ecowatt (France)",
+      "clock": "Часы"
+    }
+  },
+  "editScene": {
+    "editNamePlaceholder": "Введите название автоматизации",
+    "startButton": "Старт",
+    "saveButton": "Сохранить",
+    "deleteButton": "Удалить",
+    "duplicateButton": "Дублировать",
+    "triggersTitle": "Триггер",
+    "newTrigger": "Новый триггер",
+    "addTriggerButton": "Добавить триггер",
+    "selectTriggerLabel": "Выбрать тип триггера",
+    "newAction": "Новое действие",
+    "selectActionType": "Выбрать тип действия",
+    "addActionButton": "Добавить действие",
+    "noTriggersYet": "Триггер еще не добавлен. Не обязательно иметь триггер в автоматизации.",
+    "noActionsYet": "Действия пока не добавлены. Нажмите кнопку +, чтобы добавить действие к этой автоматизации..",
+    "triggersDescription": "Каждый триггер независим. Когда любой из этих триггеров срабатывает, автоматизация запускается.",
+    "actionsDescription": "Все действия в этом блоке будут выполняться параллельно. Чтобы сделать последовательность действий, добавьте действия в следующий блок.",
+    "addNewTriggerButton": "Добавить триггер",
+    "saveSceneError": "Не удалось сохранить сцену. Пожалуйста, проверьте правильность заполнения всех действий/триггеров.",
+    "triggers": {
+      "device": {
+        "new-state": "Устройство изменяет состояние"
+      },
+      "time": {
+        "changed": "По дате",
+        "sunrise": "Каждый рассвет",
+        "sunset": "Каждый закат"
+      },
+      "user": {
+        "back-home": "Пользователь покинул дом",
+        "left-home": "Пользователь вернулся домой"
+      },
+      "house": {
+        "empty": "Никого нет дома",
+        "no-longer-empty": "Кто-то есть дома"
+      },
+      "area": {
+        "user-entered": "Пользователь вошел в зону",
+        "user-left": "Пользователь покинул зону"
+      },
+      "calendar": {
+        "event-is-coming": "Событие календаря"
+      }
+    },
+    "triggersCard": {
+      "newState": {
+        "equal": "равно",
+        "superior": "больше",
+        "superiorOrEqual": "больше или равно",
+        "less": "меньше",
+        "lessOrEqual": "меньше или равно",
+        "different": "разница",
+        "valuePlaceholder": "Значение",
+        "on": "Вкл",
+        "off": "Выкл",
+        "deviceSeen": "Если обнаружено устройство",
+        "onlyExecuteAtThreshold": "Выполнять только при превышении порога (а не при каждом значении, отправленном устройством)."
+      }
+    }
+  },
+  "profile": {
+    "title": "Профиль",
+    "editYourProfileTitle": "Изменить профиль",
+    "firstnameLabel": "Имя",
+    "firstnamePlaceholder": "Введите ваше имя",
+    "firstnameOtherUserPlaceholder": "Введите имя",
+    "lastnameLabel": "Фамилия",
+    "lastnamePlaceholder": "Введите вашу фамилию",
+    "lastnameOtherUserPlaceholder": "Введите фамилию",
+    "selectorLabel": "Селектор",
+    "birthdateLabel": "День рождения",
+    "year": "Год",
+    "month": "Месяц",
+    "day": "День",
+    "selectorText": "Селектор — это уникальный идентификатор вашего пользователя. Его можно использовать в API.",
+    "profilePictureLabel": "Изображение профиля",
+    "chooseFileLabel": "Выбрать файл",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Введите ваш email",
+    "emailOtherUserPlaceholder": "EВведите email",
+    "languageLabel": "Язык",
+    "english": "English",
+    "french": "Français",
+    "russian": "Русский",
+    "roleLabel": "Роль",
+    "passwordLabel": "Пароль (мин 8 символов)",
+    "passwordPlaceholder": "Введите ваш пароль",
+    "passwordRepeatLabel": "Повторите ваш пароль",
+    "passwordRepeatPlaceholder": "Повторите ваш пароль",
+    "passwordOtherUserPlaceholder": "Введите пароль",
+    "passwordOtherUserRepeatLabel": "Повторите пароль",
+    "passwordRepeatOtherUserPlaceholder": "Повторите пароль",
+    "saveButton": "Сохранить профиль",
+    "firstnameError": "Имя обязательно.",
+    "lastnameError": "Фамилия обязательно.",
+    "emailError": "Email введен не в формате",
+    "passwordError": "Пароль должен быть мин 8 символов.",
+    "passwordRepeatError": "Пароль не совпадают.",
+    "birthdateError": "День рождения обязателен.",
+    "networkError": "Проблема с сетью: Нам не удалось связаться с вашим экземпляром Dom Assistant. Вы подключены к сети? Приложение Dom Assistant запущено?",
+    "emailAlreadyExistError": "Пользователь с таким email существует.",
+    "selectorAlreadyExistError": "Пользователь с таким именем существует.",
+    "instanceAlreadyConfiguredError": "Этот экземпляр уже настроен. Вы не можете создать другую учетную запись.",
+    "unknownError": "Произошла неизвестная ошибка. Пожалуйста, попробуйте еще раз или свяжитесь с сообществом Dom Assistant."
+  },
+  "newScene": {
+    "cardTitle": "Новая автоматизация",
+    "nameLabel": "Название",
+    "namePlaceholder": "Введите название автоматизации",
+    "iconLabel": "Выбрать иконку для автоматизации",
+    "createSceneButton": "Создать автоматизацию",
+    "invalidName": "Название обязательно",
+    "invalidIcon": "Иконка обязательна",
+    "sceneAlreadyExist": "Автоматизация с таким названием уже существует."
+  },
+  "scene": {
+    "title": "Автоматизации",
+    "emptySceneSentenceTop": "Нет автоматизаций.",
+    "orderDirAsc": "A - Я",
+    "orderDirDesc": "Я - A",
+    "newButton": "Новая",
+    "editButton": "Редактировать",
+    "startButton": "Старт",
+    "searchPlaceholder": "Поиск автоматизаций"
+  },
+  "gatewayLogin": {
+    "cardTitle": "Вход в Dom Assistant plus аккаунт",
+    "emailLabel": "Email адрес",
+    "emailPlaceholder": "Введите ваш email",
+    "passwordLabel": "Пароль",
+    "forgotPasswordLabel": "Я забыл свой пароль",
+    "passwordPlaceholder": "Введите свой пароль",
+    "loginButtonText": "Вход",
+    "wrongCredentials": "Неправильный email/пароль.",
+    "invalidEmail": "Не правильный email"
+  },
+  "header": {
+    "gladysAssistant": "Dom Assistant",
+    "home": "Главная",
+    "chat": "Чат",
+    "devices": "Устройства",
+    "integrations": "Интеграции",
+    "calendar": "Календарь",
+    "maps": "Карта",
+    "scenes": "Автоматика",
+    "profile": "Профиль",
+    "settings": "Настройки",
+    "needHelp": "Нужна помощь",
+    "signOut": "Выйти"
+  }
+>>>>>>> Stashed changes
 }
