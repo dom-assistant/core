@@ -1,8 +1,8 @@
 {
     "global": {
         "logoAlt": "Gladys logo",
-        "needHelpText": "Нужна помощь?  <a href=\"https://community.gladysassistant.com/\" target=\"_blank\" rel=\"noopener noreferrer\"> Форум Dom Assisatnt</a>.",
-        "new": "New",
+        "needHelpText": "Нужна помощь? <a href=\"https://community.gladysassistant.com/\" target=\"_blank\" rel=\"noopener noreferrer\"> Форум Dom Assisatnt</a>.",
+        "new": "Новый",
         "orderDirAsc": "A - Z",
         "orderDirDesc": "Z - A",
         "emptySelectOption": "---------",
@@ -27,16 +27,16 @@
         "houseStep": "Настройки платформы",
         "success": "Готово!",
         "cardTitle": "Войти в аккаунт",
-        "loginWithGladysGatewayButton": "Login with Gladys Gateway",
+        "loginWithGladysGatewayButton": "Войти с Dom Assisatnt Плюс",
         "emailLabel": "Email Адрес",
         "emailPlaceholder": "Введите ваш email",
         "passwordLabel": "Пароль",
         "forgotPasswordLabel": "Я забыл свой пароль",
         "passwordPlaceholder": "Введите ваш пароль",
         "loginButtonText": "Log in",
-        "wrongCredentials": "Wrong email/password.",
-        "invalidEmail": "Invalid email",
-        "needHelpText": "Нужна помощь?  <a href=\"https://community.gladysassistant.com/\" target=\"_blank\" rel=\"noopener noreferrer\"> Gladys Community</a>."
+        "wrongCredentials": "Неправильный email/пароль.",
+        "invalidEmail": "Не правильный email",
+        "needHelpText": "Нужна помощь? <a href=\"https://community.gladysassistant.com/\" target=\"_blank\" rel=\"noopener noreferrer\"> Gladys Community</a>."
     },
     "signup": {
         "welcome": {
@@ -165,7 +165,7 @@
         "editDashboardSaveButton": "Сохранить",
         "emptyDashboardSentenceTop": "Выглядит так, как будто главная не настроена.",
         "emptyDashboardSentenceBottom": "Кликните \"Редактировать\" для настройки главной страницы.",
-        "noDashboardSentenceBottom": "Кликните \"Новый\" для создания новой панели.",
+        "noDashboardSentenceBottom": "Кликните \"Новый\" для создания новой панели",
         "gatewayInstanceNotFoundError": "Ваше приложение Dom Assistant не подключено к шлюзу Plus",
         "editDashboardNameLabel": "Название",
         "boxTitle": {
@@ -192,7 +192,92 @@
                 "editHouseLabel": "Выберите дом. Я буду использовать его широту / долготу, чтобы узнать погоду.",
                 "houseHasNoCoordinates": "У вашего дома не определены координаты. Перейдите к параметрам, чтобы определить местоположение вашего дома.",
                 "serviceNotConfigured": "Интеграция OpenWeather не настроена. Пожалуйста, перейдите на вкладку \"Интеграции\" и настройте открытую OpenWeather .",
-                "requestToThirdPartyFailed": "Запрос к OpenWeather API выполнен с ошибкой. Подключен ли ваш экземпляр Dom Assistant к Интернету? Пожалуйста, перейдите на панель настройки OpenWeather, чтобы устранить эту проблему."
+                "requestToThirdPartyFailed": "Запрос к OpenWeather API выполнен с ошибкой. Подключен ли ваш экземпляр Dom Assistant к Интернету? Пожалуйста, перейдите на панель настройки OpenWeather, чтобы устранить эту проблему.",
+                "unknownError": "Мы не можем получить прогноз погоды для этого дома. Вы определили локацию дома?",
+                "editModeLabel": "Выбрать режим отображения:",
+                "displayModes": {
+                    "advancedWeather": "Влажность и скорость ветра",
+                    "hourlyForecast": "Прогноз на следующие 8 часов",
+                    "dailyForecast": "Прогноз на следующие 7 дней"
+                },
+                "minMaxDegreeValue": "{{min}}°/{{max}}°"
+            },
+            "devicesInRoom": {
+                "editRoomLabel": "Выбрать комнату для отображения тут.",
+                "noValue": "Нет значений для записи",
+                "deviceTitle": "{{name}} - {{type}}",
+                "addButton": "+",
+                "substractButton": "-",
+                "editDeviceFeaturesLabel": "Выбрать устройство для отображения. Только свет/датчик показывается тут.",
+                "noDevices": "Похоже что у вас нет устройств для отображения<br/>Настройте устройства на странице интеграции."
+            },
+            "temperatureInRoom": {
+                "editRoomLabel": "Выбрать комнату для отображения тут.",
+                "noTemperatureRecorded": "Нет записанных данных по температуре."
+            },
+            "humidityInRoom": {
+                "editRoomLabel": "Выбрать комнату для отображения тут.",
+                "noHumidityRecorded": "Нет записей влажности."
+            },
+            "userPresence": {
+                "left": "Лево ({{since}})",
+                "atHome": "Дома",
+                "neverSeenAtHome": "Никогда не было дома",
+                "error": "Произошла сетевая ошибка при извлечении списка пользователей. Пожалуйста, обновите.",
+                "description": "Покажите, кто дома, а кто нет. Вы можете изменить присутствие пользователя в сценах и выбрать здесь отображаемых пользователей.",
+                "emptyText": "Пользователи не выбраны. Вы можете отредактировать это поле, чтобы выбрать пользователей для отображения."
+            },
+            "camera": {
+                "editCameraLabel": "Выбрать камеру для отображения тут.",
+                "noImageToShow": "Нет изображений для показа",
+                "editBoxNameLabel": "Введите название :",
+                "editBoxNamePlaceholder": "Название"
+            },
+            "chart": {
+                "defaultInterval": "Интервал по умолчанию",
+                "lastHour": "Последний час",
+                "lastDay": "Последние 24 часа",
+                "lastSevenDays": "Последние 7 дней",
+                "lastThirtyDays": "Последние 30 дней",
+                "lastYear": "Последний год",
+                "noValue": "Нет записей в этом интервале.",
+                "editNameLabel": "Введите название",
+                "editDeviceFeaturesLabel": "Выбрать устройство для отображения тут",
+                "editNamePlaceholder": "Название отображаемое на панели",
+                "chartType": "Выбрать тип графика для отображения",
+                "line": "Линия",
+                "area": "Область",
+                "bar": "Гистограмма",
+                "stepline": "Пошаговая линейная диаграмма",
+                "displayAxes": "Отображать оси?",
+                "displayVariation": "Показать варианты?",
+                "yes": "Да",
+                "no": "Нет",
+                "showPreviewButton": "Показать предпросмотр",
+                "lastThreeMonths": "Последние 3 месяца",
+                "noValueWarning": "Предупреждение: если вы только что настроили это устройство, может пройти некоторое время, прежде чем вы что-то здесь увидите, поскольку Dom Assistant нужно некоторое время, чтобы собрать достаточное количество данных. При интервале, превышающем 24 часа, может пройти до 24 часов, прежде чем вы увидите что-то здесь.",
+                "editRoomLabel": "Выбрать комнату для отображения тут",
+                "preview": "Предпросмотр"
+            },
+            "ecowatt": {
+                "title": "Ecowatt France",
+                "error": "Произошла ошибка при извлечении RTE API. Пожалуйста, повторите попытку.",
+                "dailyTitle": "Дневные показания",
+                "nextDaysTitle": "Провизия на следующие дни",
+                "ok": "Сеть в норме",
+                "critical": "Сеть критически",
+                "description": "Это поле позволяет вам проверить состояние французской электросети.",
+                "warning": "Ошибка сети"
+            },
+            "clock": {
+                "analog": "Аналоговые",
+                "date": "{{day}}, {{month}} {{dayNumber}}, {{year}}",
+                "smallDate": "{{month}} {{dayNumber}}",
+                "type": "Тип часов?",
+                "yes": "Да",
+                "no": "Нет",
+                "digital": "Цифровые",
+                "displaySecond": "Показывать секунды?"
             }
         },
         "editDashboardMyDashboards": "Мои панели",
@@ -209,7 +294,57 @@
                 "health": "Здоровье",
                 "weather": "Погода",
                 "navigation": "Навигация"
+            },
+            "title": "Интеграции",
+            "searchPlaceholder": "Поиск интеграций",
+            "restartButton": "Перезапуск",
+            "stopButton": "Стоп",
+            "subtitle": "{{length}} {{total}} интеграций"
+        },
+        "telegram": {
+            "title": "Телеграм",
+            "note": "Эта ссылка уникальна для вашей учетной записи, не отправляйте ее другим пользователям.",
+            "configurationError": "Нам не удалось настроить вашу учетную запись. Вы уверены, что этот токен действителен?",
+            "apiKey": "Telegram Bot API Ключ",
+            "saveButton": "Сохранить",
+            "description": "Чат с Dom Assistant удаленно через Telegram.",
+            "introduction": "Чтобы подключить Dom Assistant к Telegram, вам сначала нужно создать Telegram-бота с помощью Botfather. Отправьте сообщение <b>/new boot</b> на <a href=\"https://telegram.me/BotFather \">@BotFather</a> в Telegram. Затем введите ключ API, который он дал вам ниже.",
+            "link": "<b>ТРЕБУЕТСЯ ДЕЙСТВИЕ:</b> Чтобы поговорить с Dom Assistant в Telegram, нажмите на <a href=\"{{link}}\">эту ссылку</a>. Не говорите в Telegram напрямую со своим ботом до того, как перейдете по этой ссылке, иначе ваш бот не сможет узнать, что это вы отправляете сообщение."
+        },
+        "philipsHue": {
+            "title": "Philips Hue",
+            "description": "Управляйте лампами и штекерами Philips Hue с помощью официального концентратора",
+            "deviceTab": "Устройства",
+            "setupTab": "Настроить мост",
+            "setup": {
+                "connectedBridgesTitle": "Подключенные мосты",
+                "disconnectButton": "Отключить",
+                "scanButton": "Сканировать сеть",
+                "unknownError": "Произошла неизвестная ошибка. Пожалуйста, попробуйте еще раз или свяжитесь с сообществом.",
+                "noBridgesConnected": "Мосты не подключены.",
+                "bridgesOnNetwork": "Мосты в сети",
+                "connectButton": "Подключить/Отключить",
+                "bridgeButtonNotPressed": "Кнопка Bridge не нажата: Пожалуйста, нажмите кнопку на вашем Philips Hue bridge и повторите попытку.",
+                "noBridgesFound": "Мы не нашли никаких мостов Philips Hue в вашей сети. Вы уверены, что подключены к той же сети, что и ваш мост, и ваш мост включен?"
+            },
+            "device": {
+                "title": "Устройства в Dom Assistant",
+                "deviceOnNetworkTitle": "Устройства найденные в сети",
+                "connectButton": "Подключить/Отключить",
+                "search": "Поиск устройств",
+                "noDevices": "Нет добавленных Philips Hue устройств.",
+                "deviceNotHandled": "Устройство еще не обработано, пожалуйста, свяжитесь с нами, чтобы помочь нам подключить его в Dom Assistant!",
+                "createGithubIssue": "Предложите это устройство",
+                "noDevicesFound": "Никаких устройств не найдено. Убедитесь, что вы подключили один Philips Hue bridge на вкладке настройка."
             }
+        },
+        "rtspCamera": {
+            "title": "Камеры",
+            "description": "Отображение видеопотока ваших камер в Dom Assistant.",
+            "search": "Поиск камер",
+            "new": "Новый",
+            "nameLabel": "Название камеры",
+            "namePlaceholder": "Введите название вашей камеры"
         }
     },
     "editScene": {
@@ -268,7 +403,7 @@
                 "on": "Вкл",
                 "off": "Выкл",
                 "deviceSeen": "Если обнаружено устройство",
-                "onlyExecuteAtThreshold": "Выполнять только при превышении порога (а не при каждом значении, отправленном устройством)."
+                "onlyExecuteAtThreshold": "Выполнять только при превышении порога (а не при каждом значении, отправленном устройством)"
             }
         }
     },
@@ -277,9 +412,9 @@
         "editYourProfileTitle": "Изменить профиль",
         "userRole": "User",
         "adminRole": "Administrator",
-        "roleDescription": "An admin has all rights in the Gladys instance. A user can just edit his dashboard, talk to Gladys, see his calendars & map. He cannot create scenes, edit preferences or modify an integration configuration.",
-        "invitationPending": "Pending",
-        "invitationSuccess": "Accepted",
+        "roleDescription": "Администратор имеет все права в экземпляре Dom Assistant. Пользователь может просто отредактировать свою панель мониторинга, просмотреть свои календари и карту. Он не может создавать сцены, редактировать настройки или изменять конфигурацию интеграции.",
+        "invitationPending": "Ожидание",
+        "invitationSuccess": "Подтверждено",
         "firstnameLabel": "Имя",
         "firstnamePlaceholder": "Введите ваше имя",
         "firstnameOtherUserPlaceholder": "Введите имя",
@@ -393,5 +528,14 @@
     "device": {
         "noFeatures": "Нет функций",
         "tooMuchStatesToDelete": "Это устройство имеет {{count}} состояний в базе данных. Чтобы ваш экземпляр Dom Assisatant не работал медленно при их удалении, мы начали медленное удаление этих состояний в фоновом режиме. Вы можете вернуться, чтобы удалить это устройство позже, когда оно больше не будет иметь никаких состояний. Чтобы следить за заданием на удаление, <a href=\"/dashboard/settings/jobs\">нажмите здесь</a>."
+    },
+    "newDashboard": {
+        "cardTitle": "Создать новую панель",
+        "nameLabel": "Название",
+        "dashboardAlreadyExist": "Панель уже существует.",
+        "unknownError": "Не известная ошибка. Попробуйте еще раз!",
+        "validationError": "Созданная панель не допустима, вы корректно заполнили все поля?",
+        "createDashboardButton": "Создать",
+        "description": "Вы можете создать столько панелей мониторинга, сколько захотите, чтобы лучше упорядочить данные, которые вы хотите отобразить."
     }
 }
