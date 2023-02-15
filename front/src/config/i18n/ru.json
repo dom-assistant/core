@@ -1,6 +1,6 @@
 {
     "global": {
-        "logoAlt": "Gladys logo",
+        "logoAlt": "Dass logo",
         "needHelpText": "Нужна помощь? <a href=\"https://community.gladysassistant.com/\" target=\"_blank\" rel=\"noopener noreferrer\"> Форум Dom Assisatnt</a>.",
         "new": "Новый",
         "orderDirAsc": "A - Z",
@@ -176,7 +176,7 @@
             "camera": "Камера",
             "devices-in-room": "Устройства в комнате",
             "chart": "График",
-            "ecowatt": "Ecowatt (France)",
+            "ecowatt": "Ecowatt (Франция)",
             "clock": "Часы"
         },
         "reorderDashboardButton": "Измените порядок панелей",
@@ -260,7 +260,7 @@
                 "preview": "Предпросмотр"
             },
             "ecowatt": {
-                "title": "Ecowatt France",
+                "title": "Ecowatt Франция",
                 "error": "Произошла ошибка при извлечении RTE API. Пожалуйста, повторите попытку.",
                 "dailyTitle": "Дневные показания",
                 "nextDaysTitle": "Провизия на следующие дни",
@@ -522,6 +522,98 @@
             "documentation": "Zigbee2mqtt документация",
             "description": "Управляйте своими устройствами Zigbee с помощью Zigbee2mqtt",
             "alreadyExistsButton": "Уже создано"
+        },
+        "mqtt": {
+            "setupTab": "Настройка",
+            "title": "MQTT",
+            "deviceTab": "Устройства",
+            "status": {
+                "notConfigured": "Служба MQTT не настроена, пожалуйста, перейдите в ",
+                "setupPageLink": "Страница конфигурации MQTT",
+                "notConnected": "Службе MQTT не удалось подключиться к сети, пожалуйста, перейдите в "
+            },
+            "device": {
+                "title": "Устройства MQTT",
+                "search": "Поиск устройств",
+                "noDevices": "Устройства MQTT еще не добавлены.",
+                "noNameLabel": "Без названия",
+                "nameLabel": "Название",
+                "externalIdLabel": "Внешний ID",
+                "roomLabel": "Комната",
+                "saveButton": "Сохранить",
+                "deleteButton": "Удалить",
+                "returnButton": "Вернуться обратно",
+                "editButton": "Редактировать детали",
+                "backToList": "Вернуться к списку устройств",
+                "saveError": "Ошибка сохранения или удаления устройства",
+                "mostRecentValueAt": "Последнее полученное значение {{mostRecentValueAt}}.",
+                "noValueReceived": "Значение не получено.",
+                "featuresLabel": "Функции",
+                "notFound": "Запрошенное устройство не найдено.",
+                "saveConflictError": "Конфликт: Вы уверены, что все внешние ID функций устройства уникальны?"
+            },
+            "feature": {
+                "nameLabel": "Название"
+            },
+            "description": "Подключение к локальному или удаленному серверу MQTT"
+        },
+        "googleHome": {
+            "title": "Google Home",
+            "description": "Управляйте своим устройством Dom Assistant с помощью голоса в Google Home",
+            "longDescription": "С помощью Google Home можно управлять вашими устройствами Dom Assistant с помощью голоса. Чтобы настроить Google Home с помощью Dom Assistant, следуйте этому руководству <a href=\"https://gladys assistant.com/docs/integrations/google-home /\" target=\"_blank\" rel=\"noopener noreferrer\">в нашей документации</a>.",
+            "pageTitle": "Dom Assistant",
+            "cardTitle": "Вы хотите подключить Dom Assistant к Google?",
+            "connectedAs": "Подключено как",
+            "googleWillBeAble": "Google сможет:",
+            "seeDevices": "Перечислите все ваши устройства",
+            "controlDevices": "Управляйте всеми своими устройствами",
+            "privacyPolicy": "Прочитайте в Google <a href=\"http://policies.google.com/?hl=ru \">политика конфиденциальности</a>.",
+            "cancelButton": "Отмена",
+            "connectButton": "Ссылка",
+            "pageDescription": "Входя в систему, вы разрешаете Google доступ к вашим устройствам.",
+            "error": "Не известная ошибка. Попробуйте еще раз!",
+            "getNewDeviceValues": "Периодически обновляйте состояния вашего устройства"
+        },
+        "alexa": {
+            "title": "Amazon Alexa",
+            "pageTitle": "Dom Assistant",
+            "cardTitle": "Вы хотите подключить Dom Assistant к Amazon Alexa?",
+            "pageDescription": "Входя в систему, вы разрешаете Alexa доступ к вашим устройствам.",
+            "error": "Не известная ошибка. Попробуйте еще раз!",
+            "connectedAs": "Подключено как",
+            "googleWillBeAble": "Алекса сможет:",
+            "seeDevices": "Перечислите все ваши устройства",
+            "controlDevices": "Управляйте всеми своими устройствами",
+            "getNewDeviceValues": "Периодически обновляйте состояния вашего устройства",
+            "cancelButton": "Отмена",
+            "connectButton": "Ссылка",
+            "description": "Управляйте своим устройством Dom Assistant с помощью голоса в Alexa",
+            "longDescription": "Вы можете использовать Amazon Alexa для голосового управления вашими устройствами Dom Assistant. Чтобы настроить Alexa с помощью Gladys, следуйте этому руководству <a href=\"https://gladys assistant.com/docs/integrations/alexa /\" target=\"_blank\" rel=\"noopener noreferrer\">в нашей документации</a>.",
+            "privacyPolicy": "Прочитайте <a href=\"http://www.alexa.com/help/privacy \">политика конфиденциальности Alexa</a>."
+        },
+        "homekit": {
+            "title": "Apple HomeKit",
+            "description": "Подключите Dom Assistant к HomeKit и используйте Siri для управления вашими устройствами.",
+            "qrCode": "Отсканируйте этот QR-код из вашего домашнего приложения iOS, чтобы добавить в Dom Assistant совместимые устройства.",
+            "reloadButton": "Перезагрузить",
+            "introduction": "Чтобы подключить Dom Assistant к HomeKit, вам понадобится устройство Apple (iPhone, iPad, iPod touch).",
+            "configurationError": "При получении настроек появляется ошибка.",
+            "reload": "Если вы недавно добавили устройство в Dom Assistant, но его нет в приложении \"Дом\", попробуйте перезагрузить сервис с помощью этой кнопки."
+        },
+        "owntracks": {
+            "title": "Owntracks",
+            "description": "Отправьте свое местоположение по GPS с помощью мобильного приложения",
+            "longDescription": "Owntracks - это приложение с открытым исходным кодом, работающее на iOS и Android, которое позволяет отправлять вашу геолокацию на сервер. Вы можете использовать собственные треки для запуска сцен на основе вашей геолокации. Чтобы настроить собственные треки с помощью Dom Assistant, следуйте этому руководству <a href=\"https://gladys assistant.com/docs/integrations/owntracks /\" target=\"_blank\" rel=\"noopener noreferrer\">в нашей документации</a>."
+        },
+        "openWeather": {
+            "introduction": "Эта интеграция поможет вам интегрироваться с OpenWeather API для получения информации о погоде.",
+            "apiKeyLabel": "Затем введите свой ключ API здесь:",
+            "apiKeyPlaceholder": "Введите ключ OpenWeather API",
+            "saveButton": "Сохранить",
+            "instructionsToUse": "Чтобы использовать эту интеграцию, перейдите на панель мониторинга и создайте окно погоды.",
+            "title": "OpenWeather API",
+            "description": "Отображайте погоду в вашем городе на своей приборной панели.",
+            "instructions": "Сначала вам нужно создать учетную запись на веб-сайте OpenWeather API: <a href=\"http://openweathermap.org/api \">http://openweathermap.org/api </a>."
         }
     },
     "editScene": {
