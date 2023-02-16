@@ -553,7 +553,22 @@
                 "saveConflictError": "Конфликт: Вы уверены, что все внешние ID функций устройства уникальны?"
             },
             "feature": {
-                "nameLabel": "Название"
+                "nameLabel": "Название",
+                "namePlaceholder": "Введите название функции",
+                "externalIdPlaceholder": "Функция MQTT ключ сообщения",
+                "minLabel": "Минимальное значение",
+                "minPlaceholder": "Введите минимальное значение функции",
+                "maxLabel": "Максимальное значение",
+                "maxPlaceholder": "Введите максимальное значение функции",
+                "readOnlyLabel": "Это датчик?",
+                "readOnlyButton": "Да, это датчик, отправляющий данные только в Dom Assistant.",
+                "addButton": "Добавить функцию",
+                "mqttTopicToPublishExampleLabel": "Топик MQTT для публикации",
+                "mqttTopicToListenExampleLabel": "MQTT Топик для отслеживания",
+                "externalIdLabel": "Внешний идентификатор функции (ID)",
+                "externalIdMessage": "Внешний идентификатор - это уникальный идентификатор, который помогает вам идентифицировать это устройство за пределами Dom Assistant при отправке сообщения MQTT. Он должен начинаться с \"mqtt:\". Прочитайте документацию по MQTT API <a href=\"https://gladys assistant.com/en/docs/api/mqtt-api \">здесь</a>.",
+                "mqttTopicToPublishExampleDescription": "Dom Assistant мониторит этот топик. Если вы опубликуете значение в этом топике, оно будет связано с этим устройством. (см. <a href=\"https://gladysassistant.com/docs/api/mqtt-api/\" target=\"_blank\" rel=\"noopener noreferrer\">документ</a>)",
+                "mqttTopicToListenExampleDescription": "Dom Assistant опубликует в этой теме, если устройство управляется в Dom Assistant. Вам нужно мониторить этот топик. (см. <a href=\"https://gladysassistant.com/docs/api/mqtt-api/\" target=\"_blank\" rel=\"noopener noreferrer\">документ</a>)"
             },
             "description": "Подключение к локальному или удаленному серверу MQTT"
         },
@@ -614,6 +629,11 @@
             "title": "OpenWeather API",
             "description": "Отображайте погоду в вашем городе на своей приборной панели.",
             "instructions": "Сначала вам нужно создать учетную запись на веб-сайте OpenWeather API: <a href=\"http://openweathermap.org/api \">http://openweathermap.org/api </a>."
+        },
+        "zwave": {
+            "device": {
+                "search": "Поиск устройств"
+            }
         }
     },
     "editScene": {
