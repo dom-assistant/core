@@ -50,12 +50,12 @@ class BluetoothPeripheral extends Component {
                 <Link href={`/dashboard/integration/device/bluetooth/setup/${peripheral.selector}`}>
                   {!peripheralService && (
                     <button class="btn btn-success">
-                      <Text id="integration.bluetooth.discover.createDeviceInGladys" />
+                      <Text id="integration.bluetooth.discover.createDeviceInDass" />
                     </button>
                   )}
                   {peripheralService && (
                     <button class="btn btn-primary">
-                      <Text id="integration.bluetooth.discover.updateDeviceInGladys" />
+                      <Text id="integration.bluetooth.discover.updateDeviceInDass" />
                     </button>
                   )}
                 </Link>

@@ -49,7 +49,7 @@ class XiaomiSensor extends Component {
                 )}
                 <div class="form-group">
                   <button class="btn btn-sm btn-success" onClick={this.createDevice}>
-                    <Text id="integration.xiaomi.setup.createDeviceInGladys" />
+                    <Text id="integration.xiaomi.setup.createDeviceInDass" />
                   </button>
                 </div>
               </div>

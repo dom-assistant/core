@@ -215,9 +215,9 @@ class OpenAIGateway extends Component {
                 )}
                 {notOnGladysPlus && (
                   <div class="alert alert-warning">
-                    <Text id="integration.openai.notOnGladysPlus" />
+                    <Text id="integration.openai.notOnDasssPlus" />
                     <br />
-                    <MarkupText id="integration.openai.subscribeToGladysPlus" />
+                    <MarkupText id="integration.openai.subscribeToDasssPlus" />
                   </div>
                 )}
                 {messages && messages.length > 0 && (

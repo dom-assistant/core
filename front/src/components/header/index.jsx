@@ -44,7 +44,7 @@ const Header = ({ ...props }) => {
                 />
               </Localizer>
               <span id="header-title">
-                <Text id="header.gladysAssistant" />
+                <Text id="header.dassAssistant" />
               </span>
             </a>
             <div class="d-flex order-lg-2 ml-auto">

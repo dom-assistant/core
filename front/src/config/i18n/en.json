@@ -1,7 +1,7 @@
 {
   "global": {
-    "logoAlt": "Gladys logo",
-    "needHelpText": "Need help? Join us on <a href=\"https://community.gladysassistant.com/\" target=\"_blank\" rel=\"noopener noreferrer\"> Gladys Community</a>.",
+    "logoAlt": "Dom Assistant logo",
+    "needHelpText": "Need help? Join us on <a href=\"https://community.gladysassistant.com/\" target=\"_blank\" rel=\"noopener noreferrer\"> Dom Assistant Community</a>.",
     "new": "New",
     "orderDirAsc": "A - Z",
     "orderDirDesc": "Z - A",
@@ -40,21 +40,21 @@
     "time": "Time",
     "event": "Event",
     "noEventsInRange": "There are no events in this range.",
-    "noCalendarsConnected": "No calendars connected. To connect an external calendar, go to the integrations page or ask a user in your Gladys instance to share you his calendars."
+    "noCalendarsConnected": "No calendars connected. To connect an external calendar, go to the integrations page or ask a user in your Dom Assistant instance to share you his calendars."
   },
   "device": {
     "noFeatures": "No features",
-    "tooMuchStatesToDelete": "This device has {{count}} states in database. To prevent your Gladys instance to be slow while deleting them, we've started a delete of those states slowly in background. You can come back to delete this device later when the device will not have any states anymore. To follow the delete job, <a href=\"/dashboard/settings/jobs\">click here</a>."
+    "tooMuchStatesToDelete": "This device has {{count}} states in database. To prevent your Dom Assistant instance to be slow while deleting them, we've started a delete of those states slowly in background. You can come back to delete this device later when the device will not have any states anymore. To follow the delete job, <a href=\"/dashboard/settings/jobs\">click here</a>."
   },
   "login": {
-    "title": "Gladys Assistant",
+    "title": "Dom Assistant",
     "welcome": "Welcome",
     "createAccountStep": "Create account",
     "preferencesStep": "Your preferences",
     "houseStep": "Configure house",
     "success": "Success!",
     "cardTitle": "Login to your account",
-    "loginWithGladysGatewayButton": "Login with Gladys Gateway",
+    "loginWithDassGatewayButton": "Login with Dom Assistant Gateway",
     "emailLabel": "Email Address",
     "emailPlaceholder": "Enter your email",
     "passwordLabel": "Password",
@@ -63,22 +63,22 @@
     "loginButtonText": "Log in",
     "wrongCredentials": "Wrong email/password.",
     "invalidEmail": "Invalid email",
-    "needHelpText": "Need help? Join us on <a href=\"https://community.gladysassistant.com/\" target=\"_blank\" rel=\"noopener noreferrer\"> Gladys Community</a>."
+    "needHelpText": "Need help? Join us on <a href=\"https://community.gladysassistant.com/\" target=\"_blank\" rel=\"noopener noreferrer\"> Dom Assistant Community</a>."
   },
   "signup": {
     "welcome": {
-      "title": "Welcome to Gladys 🙋",
-      "introSentence": "First, thank you for choosing me. I'm Gladys, a privacy-friendly home assistant for your house.",
-      "introTimeToCreateAccount": "It's time to create a local account for your Gladys setup.",
-      "introDontWorryLocal": "Don't worry: Gladys is fully self-hosted, and all the information you'll enter is only saved in the local database of Gladys.",
-      "introInCaseOfIssues": "In case you have issues installing Gladys, check out our <a href=\"https://gladysassistant.com/en/docs/\">documentation</a> or ask a question on <a href=\"https://community.gladysassistant.com\">Gladys community</a>.",
-      "introReadMoreGladysGateway": "Read more about <a href=\"https://gladysassistant.com\">Gladys Plus.</a>",
-      "buttonCreateAccountGladysGateway": "Restore a Gladys Plus Backup",
+      "title": "Welcome to Dom Assistant 🙋",
+      "introSentence": "First, thank you for choosing me. I'm Dom Assistant, a privacy-friendly home assistant for your house.",
+      "introTimeToCreateAccount": "It's time to create a local account for your Dom Assistant setup.",
+      "introDontWorryLocal": "Don't worry: Dom Assistant is fully self-hosted, and all the information you'll enter is only saved in the local database of Dom Assistant.",
+      "introInCaseOfIssues": "In case you have issues installing Dom Assistant, check out our <a href=\"https://gladysassistant.com/en/docs/\">documentation</a> or ask a question on <a href=\"https://community.gladysassistant.com\">Dom Assistant community</a>.",
+      "introReadMoreDassGateway": "Read more about <a href=\"https://gladysassistant.com\">Dom Assistant Plus.</a>",
+      "buttonCreateAccountDassGateway": "Restore a Dom Assistant Plus Backup",
       "buttonCreateAccountWithEmail": "Create local account with your Email"
     },
     "createLocalAccount": {
-      "title": "Create your local Gladys account",
-      "description": "All information entered here is only saved locally in Gladys database. You can update it later at any time.",
+      "title": "Create your local Dom Assistant account",
+      "description": "All information entered here is only saved locally in Dom Assistant database. You can update it later at any time.",
       "firstnameLabel": "First Name",
       "firstnamePlaceHolder": "Enter your first name",
       "lastnameLabel": "Last Name",
@@ -112,14 +112,14 @@
       "passwordError": "Password should be at least 8 characters.",
       "passwordRepeatError": "Passwords do not match.",
       "birthdateError": "Birthdate is required.",
-      "networkError": "Network Error: We didn't succeed in contacting your Gladys instance. Are you connected to the network? Is your Gladys instance running?",
+      "networkError": "Network Error: We didn't succeed in contacting your Dom Assistant instance. Are you connected to the network? Is your Dom Assistant instance running?",
       "emailAlreadyExistError": "A user with this email already exist.",
       "selectorAlreadyExistError": "A user with this first name already exist.",
       "createAccountButton": "Create Account"
     },
     "restoreBackupSetBackupKey": {
       "title": "Enter your backup key",
-      "description": "As Gladys Plus backups are end-to-end encrypted, we need you to enter your backup key. Your local instance can only decrypt the backup with this backup key.",
+      "description": "As Dom Assistant Plus backups are end-to-end encrypted, we need you to enter your backup key. Your local instance can only decrypt the backup with this backup key.",
       "backupKeyLabel": "Backup key",
       "backupKeyPlaceholder": "Enter your backup key",
       "cancelButton": "Cancel",
@@ -127,7 +127,7 @@
     },
     "restoreBackupInProgress": {
       "title": "Restore in progress...",
-      "description": "At the end of the restore process, Gladys will restart automatically.",
+      "description": "At the end of the restore process, Dom Assistant will restart automatically.",
       "errored": "Backup restore failed, maybe the restore key is not valid",
       "updateRestoreKeyButton": "Update restore key"
     },
@@ -155,7 +155,7 @@
     },
     "configureHouse": {
       "title": "Configure your house",
-      "description": "All information is only saved in Gladys local database. If you have several houses, you can configure them later in Gladys.",
+      "description": "All information is only saved in Dom Assistant local database. If you have several houses, you can configure them later in Dom Assistant.",
       "houseNameLabel": "Name",
       "houseNamePlaceHolder": "Enter your house name",
       "houseNameError": "House name is required",
@@ -174,9 +174,9 @@
     },
     "success": {
       "title": "Allow me to thank you 🙏",
-      "introduction": "I'm <a href=\"https://twitter.com/pierregillesl\">Pierre-Gilles Leymarie</a>, and I founded Gladys Assistant in 2013.",
-      "thanksForChoosingOpenSource": "I would like to thank you for choosing Gladys 🙌 I hope you'll enjoy using this software as much as I enjoyed building it.",
-      "ifYouWantToSupportThisSotware": "As Gladys is now my main job, I rely on contributions to make this project substainable. If you want to support Gladys and get access to additional features, read more about <a href=\"https://gladysassistant.com/plus\">Gladys Plus</a>.",
+      "introduction": "I'm <a href=\"https://twitter.com/pierregillesl\">Pierre-Gilles Leymarie</a>, and I founded Dom Assistant Assistant in 2013.",
+      "thanksForChoosingOpenSource": "I would like to thank you for choosing Dom Assistant 🙌 I hope you'll enjoy using this software as much as I enjoyed building it.",
+      "ifYouWantToSupportThisSotware": "As Dom Assistant is now my main job, I rely on contributions to make this project substainable. If you want to support Dom Assistant and get access to additional features, read more about <a href=\"https://gladysassistant.com/plus\">Dom Assistant Plus</a>.",
       "goToDashboardButton": "Go to Dashboard"
     }
   },
@@ -194,7 +194,7 @@
     "emptyDashboardSentenceTop": "Looks like your dashboard is not configured yet.",
     "emptyDashboardSentenceBottom": "Click on the \"Edit\" button to design your dashboard.",
     "noDashboardSentenceBottom": "Click on the \"New\" button to create a new dashboard",
-    "gatewayInstanceNotFoundError": "Your Gladys instance is not connected to the Gladys Gateway",
+    "gatewayInstanceNotFoundError": "Your Dom Assistant instance is not connected to the Dom Assistant Gateway",
     "editDashboardNameLabel": "Name",
     "editDashboardMyDashboards": "My dashboards",
     "editDashboardExplanation": "Each dashboard has 3 columns, which you can fill in according to your preferences. Click on the + button to add a new widget. You can move this widget by grabbing it and moving it around.",
@@ -219,9 +219,9 @@
       "deleteButton": "Delete",
       "weather": {
         "editHouseLabel": "Select a house. I will use its latitude/longitude to get the weather.",
-        "houseHasNoCoordinates": "Your house has no coordinates defined. Go to Gladys parameters to define the position of your house.",
+        "houseHasNoCoordinates": "Your house has no coordinates defined. Go to Dom Assistant parameters to define the position of your house.",
         "serviceNotConfigured": "The OpenWeather service is not configured. Please go to the 'Integrations' tab, and configure the OpenWeather service.",
-        "requestToThirdPartyFailed": "The request to OpenWeather API failed. Is your Gladys instance connected to the internet? Please go to the OpenWeather configuration panel to troubleshoot this problem.",
+        "requestToThirdPartyFailed": "The request to OpenWeather API failed. Is your Dom Assistant instance connected to the internet? Please go to the OpenWeather configuration panel to troubleshoot this problem.",
         "clickHere": "Click here to access the OpenWeather configuration panel.",
         "unknownError": "We are unable to get the weather for this house. Did you define a house for this box?",
         "editModeLabel": "Select display mode:",
@@ -272,7 +272,7 @@
         "lastThreeMonths": "Last 3 months",
         "lastYear": "Last year",
         "noValue": "No values recorded on this interval.",
-        "noValueWarning": "Warning: if you just configured this device, it may take some time before you see something here as Gladys needs some time to collect enough data. For interval superior to 24h, it may take up to 24h before you see something here.",
+        "noValueWarning": "Warning: if you just configured this device, it may take some time before you see something here as Dom Assistant needs some time to collect enough data. For interval superior to 24h, it may take up to 24h before you see something here.",
         "editNameLabel": "Enter the name of this box",
         "editDeviceFeaturesLabel": "Select the device you want to display here",
         "editRoomLabel": "Select the room you want to display here",
@@ -340,9 +340,9 @@
     },
     "telegram": {
       "title": "Telegram",
-      "description": "Chat with Gladys remotely through Telegram.",
-      "introduction": "To connect Gladys to Telegram, you first need to create a Telegram bot using the Botfather. Send a <b>/newbot</b> message to the <a href=\"https://telegram.me/BotFather\">@BotFather</a> in Telegram. Then, enter the API key he gave you below.",
-      "link": "<b>ACTION REQUIRED:</b> To talk to Gladys in Telegram, click on <a href=\"{{link}}\">this link</a>. Don't speak in Telegram directly to your bot before having click on this link, otherwise your bot won't be able to know that it's you who are sending a message.",
+      "description": "Chat with Dom Assistant remotely through Telegram.",
+      "introduction": "To connect Dom Assistant to Telegram, you first need to create a Telegram bot using the Botfather. Send a <b>/newbot</b> message to the <a href=\"https://telegram.me/BotFather\">@BotFather</a> in Telegram. Then, enter the API key he gave you below.",
+      "link": "<b>ACTION REQUIRED:</b> To talk to Dom Assistant in Telegram, click on <a href=\"{{link}}\">this link</a>. Don't speak in Telegram directly to your bot before having click on this link, otherwise your bot won't be able to know that it's you who are sending a message.",
       "note": "This link is unique to your account, do not send it to other users.",
       "configurationError": "We were not able to configure your account. Are you sure this token is valid?",
       "apiKey": "Telegram Bot API Key",
@@ -360,24 +360,24 @@
         "connectButton": "Connect/Reconnect",
         "scanButton": "Scan network",
         "bridgeButtonNotPressed": "Bridge button not pressed: Please press the button on your Philips Hue bridge and try again.",
-        "unknownError": "An unknown error occured. Please try again or contact Gladys community.",
+        "unknownError": "An unknown error occured. Please try again or contact Dom Assistant community.",
         "noBridgesConnected": "No bridges connected.",
         "noBridgesFound": "We didn't find any Philips Hue bridges on your network. Are you sure you are connected to the same network as your bridge and your bridge is turned on?"
       },
       "device": {
-        "title": "Devices in Gladys",
+        "title": "Devices in Dom Assistant",
         "deviceOnNetworkTitle": "Devices detected on network",
         "connectButton": "Connect/Reconnect",
         "search": "Search devices",
         "noDevices": "No Philips Hue device added yet.",
-        "deviceNotHandled": "Device not handled yet, please contact us to help us connect it in Gladys!",
+        "deviceNotHandled": "Device not handled yet, please contact us to help us connect it in Dom Assistant!",
         "noDevicesFound": "No devices found. Make sure you have connected one Philips Hue bridge in the setup tab.",
         "createGithubIssue": "Suggest this device"
       }
     },
     "rtspCamera": {
       "title": "Cameras",
-      "description": "Display your cameras video flux in Gladys.",
+      "description": "Display your cameras video flux in Dom Assistant.",
       "search": "Search cameras",
       "new": "New",
       "nameLabel": "Camera Name",
@@ -397,7 +397,7 @@
       "deleteButton": "Delete",
       "rotate180Label": "180° Rotation",
       "saveError": "There was an error saving the camera.",
-      "testConnectionError": "There was an error while getting the RTSP Flux. Are you sure the provided URL is right and accessible from Gladys instance?"
+      "testConnectionError": "There was an error while getting the RTSP Flux. Are you sure the provided URL is right and accessible from Dom Assistant instance?"
     },
     "tasmota": {
       "title": "Tasmota",
@@ -406,7 +406,7 @@
       "mqttDiscoverTab": "MQTT discover",
       "httpDiscoverTab": "HTTP discover",
       "device": {
-        "title": "Tasmota devices in Gladys",
+        "title": "Tasmota devices in Dom Assistant",
         "search": "Search devices",
         "editButton": "Edit",
         "noDeviceFound": "No Tasmota device found.",
@@ -462,10 +462,10 @@
     },
     "tpLink": {
       "title": "TP-Link",
-      "description": "Control TP-Link Bulbs and Plugs in Gladys",
+      "description": "Control TP-Link Bulbs and Plugs in Dom Assistant",
       "deviceTab": "Devices",
       "device": {
-        "title": "Devices in Gladys",
+        "title": "Devices in Dom Assistant",
         "nameLabel": "Name",
         "noNameLabel": "No name",
         "roomLabel": "Room",
@@ -478,7 +478,7 @@
         "noDevices": "No TP-Link device added yet.",
         "noDevicesFound": "No devices found. Make sure you have connected one TP-Link Device (Bulb/Plug) to your WiFi.",
         "deviceOnNetworkTitle": "Devices detected on network",
-        "deviceNotHandled": "Device not handled yet, please contact us to help us connect it in Gladys!",
+        "deviceNotHandled": "Device not handled yet, please contact us to help us connect it in Dom Assistant!",
         "createGithubIssue": "Suggest this device",
         "saveError": "Error while saving, please try again.",
         "deleteError": "Error when deleting, please try again."
@@ -498,18 +498,18 @@
         "mqttNotRunning": "MQTT broker failed to start",
         "zigbee2mqttNotInstalled": "Zigbee2mqtt failed to install",
         "zigbee2mqttNotRunning": "Zigbee2mqtt failed to start",
-        "gladysNotConnected": "Gladys failed to connect to MQTT",
+        "gladysNotConnected": "Dom Assistant failed to connect to MQTT",
         "zigbee2mqttNotConnected": "Zigbee2mqtt failed to connect to MQTT",
         "settingsPageLink": "USB dongle configuration page",
         "setupPageLink": "Zigbee2mqtt configuration page"
       },
       "settings": {
         "title": "Zigbee2mqtt USB dongle Settings",
-        "description": "To use Zigbee2mqtt in Gladys, you need to have a Zigbee2mqtt USB Dongle attached to your Gladys instance.",
+        "description": "To use Zigbee2mqtt in Dom Assistant, you need to have a Zigbee2mqtt USB Dongle attached to your Dom Assistant instance.",
         "zigbee2mqttUsbDriverPathLabel": "Select the USB port where your Zigbee2mqtt Dongle is connected",
         "saveButton": "Save Settings",
         "refreshButton": "Refresh USB list",
-        "notAttached": "Gladys is not attached to any Zigbee2mqtt USB Dongle.",
+        "notAttached": "Dom Assistant is not attached to any Zigbee2mqtt USB Dongle.",
         "attached": "Zigbee2mqtt USB Dongle configured.",
         "saving": "Saving USB Dongle configuration..."
       },
@@ -517,8 +517,8 @@
         "title": "Zigbe2mqtt configuration",
         "description": "This service uses two independent docker containers (MQTT broker and Zigbee2mqtt). Enable Zigbee2mqtt for deploying these containers.\nLearn more on the Zigbee2mqtt documentation page",
         "enableLabel": "Zigbee2mqtt activation",
-        "nonDockerEnv": "Gladys is not running on Docker, you cannot install a MQTT broker from here.",
-        "invalidDockerNetwork": "Gladys is under custom installation, to install broker from here, Gladys container should be configured with \"host\" network mode.",
+        "nonDockerEnv": "Dom Assistant is not running on Docker, you cannot install a MQTT broker from here.",
+        "invalidDockerNetwork": "Dom Assistant is under custom installation, to install broker from here, Dom Assistant container should be configured with \"host\" network mode.",
         "enableZigbee2mqtt": "Enable Zigbee2mqtt",
         "containersStatus": "Zigbee2mqtt Containers",
         "serviceStatus": "Zigbee2mqtt Service Status",
@@ -526,9 +526,9 @@
         "connected": "Zigbee2mqtt was started with success.",
         "error": "An error occured while starting Zigbee2mqtt.",
         "mqttZigbeeLink": "MQTT - Zigbee",
-        "gladysMqttLink": "Gladys - MQTT",
+        "gladysMqttLink": "Dom Assistant - MQTT",
         "zigbee2Mqtt": "Zigbee2mqtt",
-        "gladys": "Gladys",
+        "gladys": "Dom Assistant",
         "mqtt": "MQTT",
         "status": "Status"
       },
@@ -541,9 +541,9 @@
         "title": "Zigbee2mqtt discover",
         "permitJoin": "Permit joining",
         "noDeviceDiscovered": "No new device discovered, please click on scan button.",
-        "serverNoResponse": "Gladys server is not available.",
-        "serverNoResponseWebSocker": "Gladys server is not available. Pleash refresh the page.",
-        "deviceNotHandled": "Device not handled yet, please contact us to help us connect it in Gladys!",
+        "serverNoResponse": "Dom Assistant server is not available.",
+        "serverNoResponseWebSocker": "Dom Assistant server is not available. Pleash refresh the page.",
+        "deviceNotHandled": "Device not handled yet, please contact us to help us connect it in Dom Assistant!",
         "createGithubIssue": "Suggest this device"
       },
       "noDeviceFound": "No zigbee2mqtt device found.",
@@ -562,10 +562,10 @@
     },
     "googleHome": {
       "title": "Google Home",
-      "description": "Control your Gladys device with your voice in Google Home",
-      "longDescription": "It's possible to use Google Home to control your Gladys devices by voice. To configure Google Home with Gladys, follow this tutorial <a href=\"https://gladysassistant.com/docs/integrations/google-home/\"  target=\"_blank\" rel=\"noopener noreferrer\">in our documentation</a>.",
-      "pageTitle": "Gladys Assistant",
-      "cardTitle": "Do you want to connect Gladys Assistant to Google?",
+      "description": "Control your Dom Assistant device with your voice in Google Home",
+      "longDescription": "It's possible to use Google Home to control your Dom Assistant devices by voice. To configure Google Home with Dom Assistant, follow this tutorial <a href=\"https://gladysassistant.com/docs/integrations/google-home/\"  target=\"_blank\" rel=\"noopener noreferrer\">in our documentation</a>.",
+      "pageTitle": "Dom Assistant Assistant",
+      "cardTitle": "Do you want to connect Dom Assistant Assistant to Google?",
       "pageDescription": "By signin in, you are authorizing Google to access your devices.",
       "error": "An error occured. Please retry !",
       "connectedAs": "Connected as",
@@ -579,10 +579,10 @@
     },
     "alexa": {
       "title": "Amazon Alexa",
-      "description": "Control your Gladys device with your voice in Alexa",
-      "longDescription": "It's possible to use Amazon Alexa to control your Gladys devices by voice. To configure Alexa with Gladys, follow this tutorial <a href=\"https://gladysassistant.com/docs/integrations/alexa/\"  target=\"_blank\" rel=\"noopener noreferrer\">in our documentation</a>.",
-      "pageTitle": "Gladys Assistant",
-      "cardTitle": "Do you want to connect Gladys Assistant to Amazon Alexa?",
+      "description": "Control your Dom Assistant device with your voice in Alexa",
+      "longDescription": "It's possible to use Amazon Alexa to control your Dom Assistant devices by voice. To configure Alexa with Dom Assistant, follow this tutorial <a href=\"https://gladysassistant.com/docs/integrations/alexa/\"  target=\"_blank\" rel=\"noopener noreferrer\">in our documentation</a>.",
+      "pageTitle": "Dom Assistant Assistant",
+      "cardTitle": "Do you want to connect Dom Assistant Assistant to Amazon Alexa?",
       "pageDescription": "By signin in, you are authorizing Alexa to access your devices.",
       "error": "An error occured. Please retry !",
       "connectedAs": "Connected as",
@@ -596,17 +596,17 @@
     },
     "homekit": {
       "title": "Apple HomeKit",
-      "description": "Connect Gladys to HomeKit and use Siri to control your devices.",
-      "introduction": "To connect Gladys to HomeKit, you need an Apple device (iPhone, iPad, iPod touch).",
-      "qrCode": "Scan this QR code from your iOS Home app to add Gladys and all compatible devices.",
+      "description": "Connect Dom Assistant to HomeKit and use Siri to control your devices.",
+      "introduction": "To connect Dom Assistant to HomeKit, you need an Apple device (iPhone, iPad, iPod touch).",
+      "qrCode": "Scan this QR code from your iOS Home app to add Dom Assistant and all compatible devices.",
       "configurationError": "An error appears while getting settings.",
-      "reload": "If you add a device recently on Gladys and it is not on Home app, try to reload the service with this button.",
+      "reload": "If you add a device recently on Dom Assistant and it is not on Home app, try to reload the service with this button.",
       "reloadButton": "Reload"
     },
     "owntracks": {
       "title": "Owntracks",
-      "description": "Send your GPS location to Gladys with a mobile app",
-      "longDescription": "Owntracks is an open-source app running on iOS and Android that let you send your geolocation to a server. You can use Owntracks to trigger scenes based on your geolocation. To configure Owntracks with Gladys, follow this tutorial <a href=\"https://gladysassistant.com/docs/integrations/owntracks/\"  target=\"_blank\" rel=\"noopener noreferrer\">in our documentation</a>."
+      "description": "Send your GPS location to Dom Assistant with a mobile app",
+      "longDescription": "Owntracks is an open-source app running on iOS and Android that let you send your geolocation to a server. You can use Owntracks to trigger scenes based on your geolocation. To configure Owntracks with Dom Assistant, follow this tutorial <a href=\"https://gladysassistant.com/docs/integrations/owntracks/\"  target=\"_blank\" rel=\"noopener noreferrer\">in our documentation</a>."
     },
     "zwave": {
       "title": "Open-Zwave [OLD]",
@@ -615,7 +615,7 @@
         "title": "Legacy Open-Zwave Devices",
         "search": "Search devices",
         "convertToMqtt": "Convert to MQTT device",
-        "oldIntegrationWarning": "This integration was based on Open-Zwave and is now DEPRECATED. We are migrating to Zwave-js-ui, but in the meantime we recommend that you use Node-RED + Zwave-js-ui + Gladys. <br /> <br /> If you want to help us develop this integration, join-us on the <a href=\"https://en-community.gladysassistant.com/\" target=\"_blank\" rel=\"noopener noreferrer\">forum</a>!",
+        "oldIntegrationWarning": "This integration was based on Open-Zwave and is now DEPRECATED. We are migrating to Zwave-js-ui, but in the meantime we recommend that you use Node-RED + Zwave-js-ui + Dom Assistant. <br /> <br /> If you want to help us develop this integration, join-us on the <a href=\"https://en-community.gladysassistant.com/\" target=\"_blank\" rel=\"noopener noreferrer\">forum</a>!",
         "noDevices": "No Z-Wave devices added yet.",
         "scanButton": "Scan",
         "nameLabel": "Name",
@@ -631,7 +631,7 @@
     "openWeather": {
       "title": "OpenWeather API",
       "description": "Display the weather in your town on your dasboard.",
-      "introduction": "This integration helps you integrate with OpenWeather API to get the weather in Gladys.",
+      "introduction": "This integration helps you integrate with OpenWeather API to get the weather in Dom Assistant.",
       "instructions": "You first need to create an account on OpenWeather API website: <a href=\"https://openweathermap.org/api\">https://openweathermap.org/api</a>.",
       "apiKeyLabel": "Then, enter your API key here:",
       "apiKeyPlaceholder": "Enter OpenWeather API key",
@@ -672,19 +672,19 @@
         "nameLabel": "Name",
         "namePlaceholder": "Enter feature name",
         "externalIdLabel": "Feature external ID",
-        "externalIdMessage": "The external ID is an unique ID which helps you identify this device outside of Gladys when sending a MQTT message. It musts start with \"mqtt:\". Read the MQTT API documentation <a href=\"https://gladysassistant.com/en/docs/api/mqtt-api\">here</a>.",
+        "externalIdMessage": "The external ID is an unique ID which helps you identify this device outside of Dom Assistant when sending a MQTT message. It musts start with \"mqtt:\". Read the MQTT API documentation <a href=\"https://gladysassistant.com/en/docs/api/mqtt-api\">here</a>.",
         "externalIdPlaceholder": "Feature MQTT message key",
         "minLabel": "Minimum value",
         "minPlaceholder": "Enter feature minimum value",
         "maxLabel": "Maximum value",
         "maxPlaceholder": "Enter feature maximum value",
         "readOnlyLabel": "Is it a sensor?",
-        "readOnlyButton": "Yes, it's a sensor sending data to Gladys only.",
+        "readOnlyButton": "Yes, it's a sensor sending data to Dom Assistant only.",
         "addButton": "Add feature",
         "mqttTopicToPublishExampleLabel": "MQTT Topic to publish",
-        "mqttTopicToPublishExampleDescription": "Gladys is listening to this topic. If you publish a value in this topic, it'll be associated with this device. (see <a href=\"https://gladysassistant.com/docs/api/mqtt-api/\" target=\"_blank\" rel=\"noopener noreferrer\">doc</a>)",
+        "mqttTopicToPublishExampleDescription": "Dom Assistant is listening to this topic. If you publish a value in this topic, it'll be associated with this device. (see <a href=\"https://gladysassistant.com/docs/api/mqtt-api/\" target=\"_blank\" rel=\"noopener noreferrer\">doc</a>)",
         "mqttTopicToListenExampleLabel": "MQTT Topic to listen",
-        "mqttTopicToListenExampleDescription": "Gladys will publish in this topic if the device is controlled in Gladys. You need to listen to this topic. (see <a href=\"https://gladysassistant.com/docs/api/mqtt-api/\" target=\"_blank\" rel=\"noopener noreferrer\">doc</a>)",
+        "mqttTopicToListenExampleDescription": "Dom Assistant will publish in this topic if the device is controlled in Dom Assistant. You need to listen to this topic. (see <a href=\"https://gladysassistant.com/docs/api/mqtt-api/\" target=\"_blank\" rel=\"noopener noreferrer\">doc</a>)",
         "copyMqttTopic": "Copy MQTT Topic",
         "copied": "Copied!",
         "copyFailed": "Fail to copy",
@@ -692,15 +692,15 @@
       },
       "setup": {
         "title": "MQTT configuration",
-        "mqttDescription": "You can connect Gladys to a MQTT broker to send & receive MQTT messages. Learn more about Gladys MQTT API <a href=\"https://gladysassistant.com/en/docs/api/mqtt-api\">here</a>.",
+        "mqttDescription": "You can connect Dom Assistant to a MQTT broker to send & receive MQTT messages. Learn more about Dom Assistant MQTT API <a href=\"https://gladysassistant.com/en/docs/api/mqtt-api\">here</a>.",
         "embeddedBrokerLabel": "Broker Docker container",
-        "nonDockerEnv": "Gladys is not running on Docker, you cannot install a MQTT broker from here.",
-        "invalidDockerNetwork": "Gladys is under custom installation, to install broker from here, Gladys container should be configured with \"host\" network mode.",
+        "nonDockerEnv": "Dom Assistant is not running on Docker, you cannot install a MQTT broker from here.",
+        "invalidDockerNetwork": "Dom Assistant is under custom installation, to install broker from here, Dom Assistant container should be configured with \"host\" network mode.",
         "installBrokerContainer": "Use broker in a Docker container.",
         "brokerDockerNotInstalled": "No broker is available yet on current Docker environment, continue to install and configure <a href=\"https://mosquitto.org/\">eclipse-mosquitto</a> broker inside a Docker container.",
         "installBrokerButton": "Install broker on Docker",
         "installingBrokerButton": "Installation in progress...",
-        "installBrokerError": "An error occured while installing Docker container, please consult Gladys logs.",
+        "installBrokerError": "An error occured while installing Docker container, please consult Dom Assistant logs.",
         "urlLabel": "Broker URL",
         "urlPlaceholder": "Ex: mqtt://[mqtt-broker-address]:[port]",
         "userLabel": "Username",
@@ -844,7 +844,7 @@
       "title": "Xiaomi Home",
       "description": "Control Xiaomi home devices with the official hub",
       "device": {
-        "title": "Xiaomi devices in Gladys",
+        "title": "Xiaomi devices in Dom Assistant",
         "noDevices": "No Xiaomi devices added yet.",
         "searchPlaceholder": "Search Xiaomi devices",
         "sidLabel": "Xiaomi SID",
@@ -856,10 +856,10 @@
         "editButton": "Edit details"
       },
       "setup": {
-        "title": "Xiaomi devices not in Gladys",
+        "title": "Xiaomi devices not in Dom Assistant",
         "description": "Devices detected by the Xiaomi Gateway will be added here when they send data. Your Xiaomi Gateway needs to be in developer mode. Learn more <a href=\"https://gladysassistant.com/en/docs/integrations/xiaomi\">here</a>.",
-        "createDeviceInGladys": "Connect in Gladys",
-        "createDeviceError": "There was an error while creating this device in Gladys. ",
+        "createDeviceInDass": "Connect in Dom Assistant",
+        "createDeviceError": "There was an error while creating this device in Dom Assistant. ",
         "deviceCreatedSuccess": "The device was successfully added."
       },
       "models": {
@@ -877,9 +877,9 @@
       "syncTab": "Synchronization",
       "shareTab": "Sharing",
       "description": "Sync your CalDAV calendars and use them in scenes.",
-      "accountIntroduction": "To sync Gladys calendar using CalDAV, you first need an external compatible calendar. Then enter the configuration below.",
+      "accountIntroduction": "To sync Dom Assistant calendar using CalDAV, you first need an external compatible calendar. Then enter the configuration below.",
       "syncIntroduction": "Choose calendars to synchronize.",
-      "shareIntroduction": "Choose calendars you want to share with other Gladys users of this installation. If shared, those calendars will be available in scenes, and displayed in the calendar tab to every user of this installation.",
+      "shareIntroduction": "Choose calendars you want to share with other Dom Assistant users of this installation. If shared, those calendars will be available in scenes, and displayed in the calendar tab to every user of this installation.",
       "hostLabel": "CalDAV host",
       "hostInfo": "Choose your calendar host to be helped during configuration.",
       "services": {
@@ -969,10 +969,10 @@
         "title": "Bluetooth Discover",
         "scanButton": "Scan",
         "noDeviceFound": "No bluetooth device discovered.",
-        "createDeviceInGladys": "Connect in Gladys",
-        "updateDeviceInGladys": "Update in Gladys",
+        "createDeviceInDass": "Connect in Dom Assistant",
+        "updateDeviceInDass": "Update in Dom Assistant",
         "deviceCreatedSuccess": "The device was successfully added",
-        "createDeviceError": "There was an error while creating this device in Gladys. ",
+        "createDeviceError": "There was an error while creating this device in Dom Assistant. ",
         "notManagedByBluteoothButton": "Managed by \"{{service}}\" service",
         "notManagedByBluteooth": "You cannot manage this device here as it is already manager by \"{{service}}\" service.",
         "saveSuccess": "Bluetooth device successfully created.",
@@ -989,7 +989,7 @@
         "title": "Presence scanner",
         "noConfigLabel": "Configuration not loaded, please retry.",
         "errorLabel": "An error occurred while loading configuration.",
-        "presenceScannerDescription": "The presence scanner feature is doing a bluetooth scan at a defined interval. When a device is detected, the device will be flagged as \"seen\" in Gladys. In scene, you can create a trigger on this state change to set you home when a device is detected at home for example.",
+        "presenceScannerDescription": "The presence scanner feature is doing a bluetooth scan at a defined interval. When a device is detected, the device will be flagged as \"seen\" in Dom Assistant. In scene, you can create a trigger on this state change to set you home when a device is detected at home for example.",
         "presenceScannerStatusLabel": "Enable or disable presence scanner",
         "presenceScannerFrequencyLabel": "Scanner interval",
         "presenceScannerFrequencyUnit": "minutes",
@@ -1015,13 +1015,13 @@
       "deleteButton": "Delete",
       "unmanagedModelButton": "Model not managed or available",
       "status": {
-        "notConnected": "Gladys failed to connect to eWeLink cloud account, please go to ",
+        "notConnected": "Dom Assistant failed to connect to eWeLink cloud account, please go to ",
         "setupPageLink": "eWeLink configuration page.",
         "online": "Online",
         "offline": "Offline"
       },
       "device": {
-        "title": "Devices in Gladys",
+        "title": "Devices in Dom Assistant",
         "search": "Search devices",
         "updates": "Check updates",
         "editButton": "Edit",
@@ -1037,7 +1037,7 @@
       },
       "setup": {
         "title": "eWeLink configuration",
-        "eweLinkDescription": "You can connect Gladys to your eWeLink cloud account to command the associated devices.",
+        "eweLinkDescription": "You can connect Dom Assistant to your eWeLink cloud account to command the associated devices.",
         "userLabel": "Username",
         "userPlaceholder": "Enter eWeLink username",
         "passwordLabel": "Password",
@@ -1051,23 +1051,23 @@
       "error": {
         "defaultError": "There was an error saving the device.",
         "defaultDeletionError": "There was an error deleting the device.",
-        "conflictError": "Current device is already in Gladys."
+        "conflictError": "Current device is already in Dom Assistant."
       }
     },
     "openai": {
       "title": "OpenAI GPT-3",
-      "description": "Give Gladys the power of artifical intelligence",
+      "description": "Give Dom Assistant the power of artifical intelligence",
       "firstExplanation": "This is an alpha integration that let you talk to OpenAI GPT-3.",
-      "itDoesNothing": "This tab is a sandbox allowing you to test the capabilities of GPT-3. To test real home automation commands, activate GPT-3 in the Gladys chat.",
+      "itDoesNothing": "This tab is a sandbox allowing you to test the capabilities of GPT-3. To test real home automation commands, activate GPT-3 in the Dom Assistant chat.",
       "aFewExamples": "A few examples: ",
       "turnOnTheLight": "Turn on the light in the kitchen",
       "sizeOfEiffelTower": "What's the size of the Eiffel Tower ?",
       "whoIsJulesVerne": "Who is Jules Verne ?",
       "eggDuration": "How do you make hard boiled eggs ?",
-      "activateOpenAiChat": "Activate GPT-3 in Gladys chat",
+      "activateOpenAiChat": "Activate GPT-3 in Dom Assistant chat",
       "rateLimit": "As GPT-3 API is not free, this integration is limited to 100 requests per month.",
-      "notOnGladysPlus": "As GPT-3 API is not free, this integration is only available to Gladys Plus users.",
-      "subscribeToGladysPlus": "<a href=\"https://gladysassistant.com/plus/\"  target=\"_blank\" rel=\"noopener noreferrer\">Click here</a> to subscribe to Gladys Plus.",
+      "notOnDassPlus": "As GPT-3 API is not free, this integration is only available to Dom Assistant Plus users.",
+      "subscribeToDassPlus": "<a href=\"https://gladysassistant.com/plus/\"  target=\"_blank\" rel=\"noopener noreferrer\">Click here</a> to subscribe to Dom Assistant Plus.",
       "licenseShouldBeActive": "This integration is only available to users with an active license (at least one payment). For trial users, please contact us on the forum or email."
     }
   },
@@ -1147,7 +1147,7 @@
         "userLeftHomeDescription": "This action set the user as \"left home\"."
       },
       "checkUserPresence": {
-        "description": "When this action is executed, Gladys checks if one of the selected device was seen at home in the last X minutes. If one of the device was seen, the action does nothing more. If no device was seen, the user is marked as \"left home\".",
+        "description": "When this action is executed, Dom Assistant checks if one of the selected device was seen at home in the last X minutes. If one of the device was seen, the action does nothing more. If no device was seen, the user is marked as \"left home\".",
         "userLabel": "User",
         "houseLabel": "House",
         "deviceLabel": "Devices",
@@ -1177,7 +1177,7 @@
       },
       "scene": {
         "label": "Select a scene",
-        "notice": "The trigger conditions of the called scene will be ignored. If a scene calls another scene, and vice versa, Gladys will not fall into an infinite loop: each scene will be executed once."
+        "notice": "The trigger conditions of the called scene will be ignored. If a scene calls another scene, and vice versa, Dom Assistant will not fall into an infinite loop: each scene will be executed once."
       },
       "houseEmptyOrNot": {
         "houseIsEmptyDescription": "If the house is empty, the scene will continue. Otherwise, the scene will stop.",
@@ -1379,7 +1379,7 @@
     "editYourProfileTitle": "Edit your profile",
     "userRole": "User",
     "adminRole": "Administrator",
-    "roleDescription": "An admin has all rights in the Gladys instance. A user can just edit his dashboard, talk to Gladys, see his calendars & map. He cannot create scenes, edit preferences or modify an integration configuration.",
+    "roleDescription": "An admin has all rights in the Dom Assistant instance. A user can just edit his dashboard, talk to Dom Assistant, see his calendars & map. He cannot create scenes, edit preferences or modify an integration configuration.",
     "invitationPending": "Pending",
     "invitationSuccess": "Accepted",
     "firstnameLabel": "First Name",
@@ -1417,11 +1417,11 @@
     "passwordError": "Password should be at least 8 characters.",
     "passwordRepeatError": "Passwords do not match.",
     "birthdateError": "Birthdate is required.",
-    "networkError": "Network Error: We didn't succeed in contacting your Gladys instance. Are you connected to the network? Is your Gladys instance running?",
+    "networkError": "Network Error: We didn't succeed in contacting your Dom Assistant instance. Are you connected to the network? Is your Dom Assistant instance running?",
     "emailAlreadyExistError": "A user with this email already exist.",
     "selectorAlreadyExistError": "A user with this first name already exist.",
     "instanceAlreadyConfiguredError": "This instance is already configured. You cannot create another account.",
-    "unknownError": "An unknown error occured. Please try again or contact Gladys community."
+    "unknownError": "An unknown error occured. Please try again or contact Dom Assistant community."
   },
   "settings": {
     "title": "Settings",
@@ -1429,7 +1429,7 @@
     "usersTab": "Users",
     "sessionsTab": "Sessions",
     "systemTab": "System",
-    "gatewayTab": "Gladys Plus",
+    "gatewayTab": "Dom Assistant Plus",
     "backupTab": "Backups",
     "serviceTab": "Services",
     "billingTab": "Billing",
@@ -1513,27 +1513,27 @@
     "action": "Action"
   },
   "forgotPassword": {
-    "title": "Gladys Assistant",
+    "title": "Dom Assistant",
     "cardTitle": "Recover your password",
     "emailLabel": "Email",
     "backToLogin": "Back to login",
     "emailPlaceholder": "Enter your email",
     "button": "Recover my password",
     "wrongEmailError": "This is not a valid email",
-    "networkError": "Network Error: We didn't succeed in contacting your Gladys instance. Are you connected to the network? Is your Gladys instance running?",
-    "unknownError": "An unknown error occured. Please try again or contact Gladys community.",
-    "success": "Success! You should see a reset password link in Gladys logs.",
+    "networkError": "Network Error: We didn't succeed in contacting your Dom Assistant instance. Are you connected to the network? Is your Dom Assistant instance running?",
+    "unknownError": "An unknown error occured. Please try again or contact Dom Assistant community.",
+    "success": "Success! You should see a reset password link in Dom Assistant logs.",
     "userNotFound": "There is no account linked to this email.",
-    "rateLimitError": "You have tried this form too many time. Please retry in 30 minutes or restart your Gladys instance now.",
+    "rateLimitError": "You have tried this form too many time. Please retry in 30 minutes or restart your Dom Assistant instance now.",
     "invalidEmail": "We are unable to verify your email address.",
     "validationLinkConfirmation": "Are you sure you clicked/copied the link correctly?",
-    "contactUs": "If it still not working, please contact us on <a href=\"https://twitter.com/gladysassistant\">Twitter</a> or on <a href=\"https://community.gladysassistant.com\">Gladys Community</a>.",
+    "contactUs": "If it still not working, please contact us on <a href=\"https://twitter.com/gladysassistant\">Twitter</a> or on <a href=\"https://community.gladysassistant.com\">Dom Assistant Community</a>.",
     "emailConfirmed": "Email Confirmed",
     "signIn": "Sign in",
     "confirmationInProgress": "Confirmation in progress..."
   },
   "resetPassword": {
-    "title": "Gladys Assistant",
+    "title": "Dom Assistant",
     "cardTitle": "Reset your password",
     "passwordLabel": "Password (min 8 characters)",
     "passwordPlaceholder": "Enter your password",
@@ -1550,13 +1550,13 @@
     "alreadyHaveAccount": "Already have account? <a href=\"/login\">Sign in</a>"
   },
   "httpErrors": {
-    "rateLimitError": "You have tried this form too many time. Please retry in 30 minutes or restart your Gladys instance now.",
-    "unknownError": "An unknown error occured. Please try again or contact Gladys community.",
-    "networkError": "Network Error:  We didn't succeed in contacting your Gladys instance. Are you connected to the network? Is your Gladys instance running?"
+    "rateLimitError": "You have tried this form too many time. Please retry in 30 minutes or restart your Dom Assistant instance now.",
+    "unknownError": "An unknown error occured. Please try again or contact Dom Assistant community.",
+    "networkError": "Network Error:  We didn't succeed in contacting your Dom Assistant instance. Are you connected to the network? Is your Dom Assistant instance running?"
   },
   "jobsSettings": {
     "jobsTitle": "Background tasks",
-    "jobsDescription": "This view is a bit more technical than the rest of Gladys Assistant. The goal of this view is to help you have a better idea of what's running in the background, and in case you wonder why something is wrong in Gladys, you can come here to debug what happened.",
+    "jobsDescription": "This view is a bit more technical than the rest of Dom Assistant Assistant. The goal of this view is to help you have a better idea of what's running in the background, and in case you wonder why something is wrong in Dom Assistant, you can come here to debug what happened.",
     "jobType": "Type",
     "jobProgress": "%",
     "jobStatus": "Status",
@@ -1566,12 +1566,12 @@
       "monthly-device-state-aggregate": "Monthly sensors aggregation",
       "daily-device-state-aggregate": "Daily sensors aggregation",
       "hourly-device-state-aggregate": "Hourly sensors aggregation",
-      "gladys-gateway-backup": "Gladys Plus backup",
+      "gladys-gateway-backup": "Dom Assistant Plus backup",
       "device-state-purge-single-feature": "Single device feature states clean",
       "vacuum": "Database cleaning"
     },
     "jobErrors": {
-      "purged-when-restarted": "Gladys Assistant restarted while this job was still running, so it was purged. It doesn't mean the job has failed, it's a normal behavior."
+      "purged-when-restarted": "Dom Assistant restarted while this job was still running, so it was purged. It doesn't mean the job has failed, it's a normal behavior."
     },
     "jobStatuses": {
       "success": "Success",
@@ -1584,11 +1584,11 @@
     "disk": "Disk",
     "uptime": "Uptime",
     "gladysVersion": "Version",
-    "gladysVersionValue": "Gladys {{version}}",
+    "gladysVersionValue": "Dom Assistant {{version}}",
     "operations": "Operations",
-    "upToDate": "Gladys is up to date",
+    "upToDate": "Dom Assistant is up to date",
     "newUpgradeAvailable": "New upgrade available",
-    "newUpgradeAvailableText": "Gladys will update itself automatically if you installed Gladys with the official Gladys Raspberry Pi OS image. If you installed Gladys manually, make sure you have watchtower running.",
+    "newUpgradeAvailableText": "Dom Assistant will update itself automatically if you installed Dom Assistant with the official Dom Assistant Raspberry Pi OS image. If you installed Dom Assistant manually, make sure you have watchtower running.",
     "download": "Download",
     "notAvailable": "Not available on custom install.",
     "containers": "Containers",
@@ -1596,16 +1596,16 @@
     "containerCreated": "Created",
     "containerStatus": "Status",
     "downloadFinished": "Download finished.",
-    "restartingGladys": "Restarting Gladys...",
+    "restartingDass": "Restarting Dom Assistant...",
     "configurationTitle": "Configuration",
     "timezone": "Timezone",
     "timezoneText": "The timezone is used in scheduled scene.",
     "deviceStateRetentionTime": "Keep Device State History",
-    "deviceStateRetentionTimeDescription": "How long Gladys will keep your device states in database.",
+    "deviceStateRetentionTimeDescription": "How long Dom Assistant will keep your device states in database.",
     "vacuumDatabaseTitle": "Database cleaning",
-    "vacuumDatabaseDescription": "By clicking on this button, Gladys will start cleaning the database to free up space. This does not delete any data, it just physically remove old deleted data. Be careful, this task can take some time to run, and during that time Gladys will not be available.",
+    "vacuumDatabaseDescription": "By clicking on this button, Dom Assistant will start cleaning the database to free up space. This does not delete any data, it just physically remove old deleted data. Be careful, this task can take some time to run, and during that time Dom Assistant will not be available.",
     "vacuumDatabaseButton": "Start database cleaning",
-    "vacuumDatabaseStarted": "Database cleaning has started... Gladys will not be available until this job finishes.",
+    "vacuumDatabaseStarted": "Database cleaning has started... Dom Assistant will not be available until this job finishes.",
     "containerState": {
       "created": "Created",
       "restarting": "Restarting",
@@ -1620,7 +1620,7 @@
     "createNewZoneButton": "Create new zone",
     "cardTitleCreate": "Create a new zone",
     "cardTitleEdit": "Edit a zone",
-    "cardDescription": "In Gladys, you can defines \"zones\". Those zones are useful in scene, if you want to trigger a scenario when a user enters/leaves a zone.",
+    "cardDescription": "In Dom Assistant, you can defines \"zones\". Those zones are useful in scene, if you want to trigger a scenario when a user enters/leaves a zone.",
     "nameLabel": "Name",
     "namePlaceholder": "Enter the name of the zone",
     "radiusLabel": "Radius (in meter)",
@@ -1665,14 +1665,14 @@
     "searchPlaceholder": "Search scenes"
   },
   "gateway": {
-    "instanceConfiguredTitle": "Gladys Plus",
-    "yourGatewayIsConfigured": "Your Gladys Plus account is configured.",
-    "yourGatewayIsConnected": "Your Gladys instance is connected to the remote gateway.",
-    "yourGatewayIsNotConnected": "Your Gladys instance is currently not connected to the remote gateway.",
+    "instanceConfiguredTitle": "Dom Assistant Plus",
+    "yourGatewayIsConfigured": "Your Dom Assistant Plus account is configured.",
+    "yourGatewayIsConnected": "Your Dom Assistant instance is connected to the remote gateway.",
+    "yourGatewayIsNotConnected": "Your Dom Assistant instance is currently not connected to the remote gateway.",
     "instanceRsaKey": "Instance RSA key fingerprint",
     "instanceEcdsaKey": "Instance ECDSA key fingerprint",
     "backupKeyTitle": "Backup Key",
-    "backupKeyDescription": "Your backup key is used to securely encrypt your Gladys backups. Please save this key somewhere outside of Gladys to be able to restore Gladys. We recommend using a password manager for that.",
+    "backupKeyDescription": "Your backup key is used to securely encrypt your Dom Assistant backups. Please save this key somewhere outside of Dom Assistant to be able to restore Dom Assistant. We recommend using a password manager for that.",
     "backupKeyLabel": "Your backup key",
     "backupKeyPlaceholder": "Enter/Restore a backup key",
     "saveBackupKeyButton": "Save",
@@ -1684,23 +1684,23 @@
     "usersListDescription": "To ensure that your local instance remains secure, you need to manually grant access to each users in this list.",
     "disconnectTitle": "Disconnect your Plus account",
     "disconnectButton": "Disconnect",
-    "gatewayConnectedSuccessTitle": "Gladys Plus connected with success!",
-    "gatewayConnectedSuccessDescription": "Your Gladys instance was successfully connected.",
-    "gatewayConnectedSuccessBackupKey": "It'll backup automatically everyday, encrypted with the following key. So you can restore your instance later, please save this encryption key somewhere, outside of Gladys. Without this key, you will not be able to restore Gladys.",
+    "gatewayConnectedSuccessTitle": "Dom Assistant Plus connected with success!",
+    "gatewayConnectedSuccessDescription": "Your Dom Assistant instance was successfully connected.",
+    "gatewayConnectedSuccessBackupKey": "It'll backup automatically everyday, encrypted with the following key. So you can restore your instance later, please save this encryption key somewhere, outside of Dom Assistant. Without this key, you will not be able to restore Dom Assistant.",
     "gatewayConnectedSuccessButton": "I saved the backup key!",
-    "accountExpired": "Your Gladys Plus account has expired. To renew your subscription, you can go to the <a href=\"/dashboard/settings/billing\">billing tab</a>."
+    "accountExpired": "Your Dom Assistant Plus account has expired. To renew your subscription, you can go to the <a href=\"/dashboard/settings/billing\">billing tab</a>."
   },
   "gatewayPricing": {
-    "pricingTitle": "Gladys Plus",
-    "pricingSentence": "Gladys Assistant is free to use, but you can subscribe to Gladys Plus for additional premium features like end-to-end encrypted remote access, automatic backups and access to a REST API accessible from anywhere in the world.",
-    "whyIsGladysPlusPaid": "Why is Gladys Plus paid and not free like Gladys?",
-    "whyIsGladysPlusPaidAnswer": "Gladys Plus is an online service that has cost: hosting, bandwidth, storage, development and maintenance. To support those costs, we prefer asking for a monthly fee rather than adding ads or selling users data: it's not the philosophy of the project. We respect our users privacy, and want them to own their data at home.",
-    "supportOpenSource": "By subscribing to Gladys Plus, you are supporting the development of a privacy-friendly & open-source alternative. Thanks for your support ! 🙂",
-    "knowMoreButton": "Read more about Gladys Plus",
-    "alreadyGladysPlusSubscriber": "Already a Gladys Plus Subscriber? Click here to login!"
+    "pricingTitle": "Dom Assistant Plus",
+    "pricingSentence": "Dom Assistant is free to use, but you can subscribe to Dom Assistant Plus for additional premium features like end-to-end encrypted remote access, automatic backups and access to a REST API accessible from anywhere in the world.",
+    "whyIsDassPlusPaid": "Why is Dom Assistant Plus paid and not free like Dom Assistant?",
+    "whyIsDassPlusPaidAnswer": "Dom Assistant Plus is an online service that has cost: hosting, bandwidth, storage, development and maintenance. To support those costs, we prefer asking for a monthly fee rather than adding ads or selling users data: it's not the philosophy of the project. We respect our users privacy, and want them to own their data at home.",
+    "supportOpenSource": "By subscribing to Dom Assistant Plus, you are supporting the development of a privacy-friendly & open-source alternative. Thanks for your support ! 🙂",
+    "knowMoreButton": "Read more about Dom Assistant Plus",
+    "alreadyDassPlusSubscriber": "Already a Dom Assistant Plus Subscriber? Click here to login!"
   },
   "gatewayLogin": {
-    "cardTitle": "Login to your Gladys Plus account",
+    "cardTitle": "Login to your Dom Assistant Plus account",
     "emailLabel": "Email Address",
     "emailPlaceholder": "Enter your email",
     "passwordLabel": "Password",
@@ -1709,9 +1709,9 @@
     "loginButtonText": "Log in",
     "wrongCredentials": "Wrong email/password.",
     "invalidEmail": "Invalid email",
-    "networkError": "Network Error: Are you sure your Gladys instance is connected to the internet?",
-    "userNotAcceptedLocally": "Your user is not accepted locally, please go back to your Gladys instance and allow access to this user in settings.",
-    "gatewayNoInstanceFound": "No Instance found. You need to first connect your instance to Gladys.",
+    "networkError": "Network Error: Are you sure your Dom Assistant instance is connected to the internet?",
+    "userNotAcceptedLocally": "Your user is not accepted locally, please go back to your Dom Assistant instance and allow access to this user in settings.",
+    "gatewayNoInstanceFound": "No Instance found. You need to first connect your instance to Dom Assistant.",
     "gatewayAccessBilling": "To access billing, click here.",
     "unknownError": "An unknown error occurred. Please contact us for more information.",
     "twoFactorCodeLabel": "Two Factor code",
@@ -1721,7 +1721,7 @@
   },
   "gatewayBackup": {
     "title": "Backups",
-    "description": "If you are subscribed to Gladys Plus, Gladys creates encrypted backup of your instance every 24 hours. Only you can decrypt backups. You can restore those backups in one-click in this installation, or any new setup.",
+    "description": "If you are subscribed to Dom Assistant Plus, Dom Assistant creates encrypted backup of your instance every 24 hours. Only you can decrypt backups. You can restore those backups in one-click in this installation, or any new setup.",
     "createdAtColumn": "Date",
     "sizeColumn": "Size",
     "restoreColumn": "Restore",
@@ -1729,11 +1729,11 @@
     "confirmRestore": "Confirm",
     "cancelRestore": "Cancel",
     "restoreInProgressTitle": "Restoring backup in progress...",
-    "gladysRestartingTitle": "Gladys Assistant is restarting...",
+    "gladysRestartingTitle": "Dom Assistant is restarting...",
     "backupNowButton": "Backup now",
     "backupStarted": "Backup started...",
-    "notConfigured": "Gladys Plus need to be configured to enable backups. Go to the Gladys Plus tab to configure it.",
-    "restoreFailed": "Restoring the backup failed. Are you sure you have the same backup key used during the backup ? You can go to the Gladys Plus tab in settings to set another backup key."
+    "notConfigured": "Dom Assistant Plus need to be configured to enable backups. Go to the Dom Assistant Plus tab to configure it.",
+    "restoreFailed": "Restoring the backup failed. Are you sure you have the same backup key used during the backup ? You can go to the Dom Assistant Plus tab in settings to set another backup key."
   },
   "deviceFeatureUnit": {
     "celsius": "Celsius (°C)",
@@ -2156,7 +2156,7 @@
   },
   "errorPage": {
     "title": "Oops... This page does not exist.",
-    "description": "If you think it's a Gladys Assistant bug, please report it to our team!",
+    "description": "If you think it's a Dom Assistant bug, please report it to our team!",
     "goBack": "Go Back"
   },
   "chat": {
@@ -2166,9 +2166,9 @@
     "sendingInProgress": "Sending...",
     "typingInProgress": "Typing...",
     "gpt3Integration": "GPT-3 integration",
-    "gpt3IntegrationExplanation": "Gladys is now compatible with GPT-3, which gives her an over-sized intelligence! For more information,",
+    "gpt3IntegrationExplanation": "Dom Assistant is now compatible with GPT-3, which gives her an over-sized intelligence! For more information,",
     "gpt3ClickHere": "click-here!",
-    "gladysAlt": "Gladys",
+    "dassAlt": "Dom Assistant",
     "examples": {
       "whatsTheWeatherLike": "\"What's the weather like?\"",
       "whatsTheTemperatureKitchen": "\"What's the temperature in the kitchen?\"",
@@ -2176,7 +2176,7 @@
     }
   },
   "header": {
-    "gladysAssistant": "Gladys Assistant",
+    "dassAssistant": "Dom Assistant Assistant",
     "home": "Home",
     "chat": "Chat",
     "devices": "Devices",
@@ -2190,11 +2190,11 @@
     "signOut": "Sign Out"
   },
   "gatewayLinkUser": {
-    "title": "Configure Gladys Plus",
-    "label": "Select you Gladys user",
-    "description": "Before selecting your user here, please make sure that this user is accepted locally in your Gladys instance (In \"Settings\" => \"Gladys Plus\" => \"Users\").",
-    "noInstanceFound": "Your Gladys instance is not connected to the Gladys Gateway. Did you connect to your Gladys Plus account in your Gladys installation?",
-    "error": "An error occurred. Is your user accepted locally in your Gladys instance?",
+    "title": "Configure Dom Assistant Plus",
+    "label": "Select you Dom Assistant user",
+    "description": "Before selecting your user here, please make sure that this user is accepted locally in your Dom Assistant instance (In \"Settings\" => \"Dom Assistant Plus\" => \"Users\").",
+    "noInstanceFound": "Your Dom Assistant instance is not connected to the Dom Assistant Gateway. Did you connect to your Dom Assistant Plus account in your Dom Assistant installation?",
+    "error": "An error occurred. Is your user accepted locally in your Dom Assistant instance?",
     "saveButton": "Save",
     "manageBilling": "To manage your billing, click ",
     "here": "here"
@@ -2210,7 +2210,7 @@
     "externalIdPlaceholder": "Enter external ID",
     "unitLabel": "Unit",
     "saveButton": "Save",
-    "externalIdMessage": "The feature external ID is an unique ID which helps you identify this feature outside of Gladys, for example when calling the API.",
+    "externalIdMessage": "The feature external ID is an unique ID which helps you identify this feature outside of Dom Assistant, for example when calling the API.",
     "minLabel": "Minimum value",
     "minPlaceholder": "Enter feature minimum value",
     "maxLabel": "Maximum value",
@@ -2233,19 +2233,19 @@
     }
   },
   "gatewaySignup": {
-    "title": "Gladys Assistant",
+    "title": "Dom Assistant",
     "alreadyHaveAccount": "Already have an account?",
     "signin": "Sign in",
     "supportText": "Support at hello@gladysassistant.com",
-    "createAccount": "Create your Gladys Plus account",
+    "createAccount": "Create your Dom Assistant Plus account",
     "emailAlreadyExistError": "An account with that email already exist",
-    "browserNotCompatibleError": "Sorry, your browser is not compatible with the Gladys Gateway. Your browser should support the WebCrypto API.",
-    "tokenError": "You have to subscribe to the Gladys Community Package on Gladys website first!",
+    "browserNotCompatibleError": "Sorry, your browser is not compatible with the Dom Assistant Gateway. Your browser should support the WebCrypto API.",
+    "tokenError": "You have to subscribe to the Dom Assistant Community Package on Dom Assistant website first!",
     "unknownError": "An unknown error occured. Please retry later or contact me at hello@gladysassistant.com to understand what happened.",
     "invalidInvitationError": "We cannot retrieve your invitation. Maybe it was already used or it has expired! Please contact us at hello@gladysassistant.com."
   },
   "gatewaySubscribe": {
-    "registerGladysPlus": "Register to Gladys Plus",
+    "registerDassPlus": "Register to Dom Assistant Plus",
     "emailAddress": "Email Address",
     "emailAddressPlaceholder": "Enter Email",
     "cardInformations": "Card Information",
@@ -2255,11 +2255,11 @@
     "invalidEmailAddress": "Invalid Email Address",
     "emailAlreadyExist": "An account with this email address already exist!",
     "paymentFailed": "Payment failed. Please try again or try with a different card.",
-    "paymentSuccess": "Congrats, you just subscribed to Gladys Plus. Check your email to get access to the Slack and the Gladys Gateway. Thanks for your support!"
+    "paymentSuccess": "Congrats, you just subscribed to Dom Assistant Plus. Check your email to get access to the Slack and the Dom Assistant Gateway. Thanks for your support!"
   },
   "gatewayForgotPassword": {
-    "pageTitle": "Gladys Assistant",
-    "formTitle": "Gladys Plus - Forgot Password",
+    "pageTitle": "Dom Assistant",
+    "formTitle": "Dom Assistant Plus - Forgot Password",
     "success": "If this account exist, you've receive an email with a reset password link.",
     "emailAddress": "Email Address",
     "sendEmailButton": "Send reset password email",
@@ -2268,9 +2268,9 @@
     "signupLink": "Signup"
   },
   "gatewayResetPassword": {
-    "pageTitle": "Gladys Assistant",
-    "formTitle": "Gladys Plus - Reset Password",
-    "incompatibleBrowserLabel": "Sorry, your browser is not compatible with the Gladys Gateway. Your browser should support the WebCrypto API as well as IndexedDB databases.",
+    "pageTitle": "Dom Assistant",
+    "formTitle": "Dom Assistant Plus - Reset Password",
+    "incompatibleBrowserLabel": "Sorry, your browser is not compatible with the Dom Assistant Gateway. Your browser should support the WebCrypto API as well as IndexedDB databases.",
     "errorLinkLabel": "We cannot retrieve your reset password link. Maybe it was already used or has expired!",
     "passwordNotMatchingLabel": "Password are not matching.",
     "passwordLabel": "Password (min 8 characters)",
@@ -2283,7 +2283,7 @@
   },
   "gatewayOpenApi": {
     "title": "Open API",
-    "description": "The Open API allows you to send information to Gladys outside of your network.",
+    "description": "The Open API allows you to send information to Dom Assistant outside of your network.",
     "moreInformations": "<a href=\"https://gladysassistant.com/docs/plus/open-api\">More information.</a>",
     "warningKeyDisappear": "Warning: You'll see the key only once. Copy paste your key and save it somewhere.",
     "keyName": "Name",
@@ -2296,12 +2296,12 @@
     "neverUsed": "Never"
   },
   "gatewayTwoFactorAuth": {
-    "title": "Gladys Plus",
+    "title": "Dom Assistant Plus",
     "configureTitle": "Configure Two-Factor Authentication",
     "configureButton": "Configure 2FA",
     "secretLabel": "Secret",
     "copy": "Copy",
-    "securityIsImportant": "The security of your Gladys Gateway account is really important to us.",
+    "securityIsImportant": "The security of your Dom Assistant Gateway account is really important to us.",
     "securityApps": "To ensure that your account remains secure, please enable two-factor authentication using a two-factor app like Authy on <a href=\"https://itunes.apple.com/us/app/authy/id494168017?mt=8\">iOS</a> or <a href=\"https://play.google.com/store/apps/details?id=com.authy.authy\">Android</a>.",
     "invalidCode": "The 2FA code you provided is not valid.",
     "confirmCode": "Confirm Two Factor",

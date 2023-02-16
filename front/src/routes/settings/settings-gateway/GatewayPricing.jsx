@@ -19,10 +19,10 @@ const GatewayPricing = ({ children, ...props }) => (
     <div class="row mb-4">
       <div class="col-md-12">
         <h4>
-          <Text id="gatewayPricing.whyIsGladysPlusPaid" />
+          <Text id="gatewayPricing.whyIsDassPlusPaid" />
         </h4>
         <p>
-          <Text id="gatewayPricing.whyIsGladysPlusPaidAnswer" />
+          <Text id="gatewayPricing.whyIsDassPlusPaidAnswer" />
         </p>
       </div>
     </div>
@@ -44,7 +44,7 @@ const GatewayPricing = ({ children, ...props }) => (
           <Text id="gatewayPricing.knowMoreButton" />
         </a>
         <button class="btn btn-primary" onClick={props.displayGatewayLoginForm}>
-          <Text id="gatewayPricing.alreadyGladysPlusSubscriber" />
+          <Text id="gatewayPricing.alreadyDassPlusSubscriber" />
         </button>
       </div>
     </div>

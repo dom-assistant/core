@@ -29,14 +29,14 @@ const WelcomeStep = () => (
         <MarkupText id="signup.welcome.introInCaseOfIssues" />
       </p>
       <p>
-        <MarkupText id="signup.welcome.introReadMoreGladysGateway" />
+        <MarkupText id="signup.welcome.introReadMoreDassGateway" />
       </p>
     </div>
     <div class="col-lg-6">
       <div class="row" style={margin70px}>
         <div class="col text-center">
           <Link class="btn btn-info btn-block" href="/signup/create-account-gladys-gateway">
-            <i class="fe fe-download-cloud" /> <Text id="signup.welcome.buttonCreateAccountGladysGateway" />
+            <i class="fe fe-download-cloud" /> <Text id="signup.welcome.buttonCreateAccountDassGateway" />
           </Link>
         </div>
       </div>
