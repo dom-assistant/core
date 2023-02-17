@@ -808,7 +808,84 @@
             }
         },
         "xiaomi": {
-            "title": "Xiaomi Home"
+            "title": "Xiaomi Home",
+            "device": {
+                "editButton": "Редактировать детали",
+                "title": "Устройства Xiaomi в Dom Assistant",
+                "noDevices": "Пока не добавлено ни одного устройства Xiaomi.",
+                "searchPlaceholder": "Поиск устройств Xiaomi",
+                "sidLabel": "Xiaomi SID",
+                "ipLabel": "IP адрес",
+                "roomLabel": "Комната",
+                "featuresLabel": "Функции",
+                "saveButton": "Сохранить",
+                "deleteButton": "Удалить"
+            },
+            "setup": {
+                "description": "Устройства, обнаруженные шлюзом Xiaomi, будут добавлены сюда при отправке данных. Ваш шлюз Xiaomi должен быть в режиме разработчика. Узнать больше <a href=\"https://gladysassistant.com/en/docs/integrations/xiaomi\">здесь</a>.",
+                "deviceCreatedSuccess": "Устройство было успешно добавлено.",
+                "title": "Устройства Xiaomi, отсутствующие в Dom Assistant",
+                "createDeviceInDass": "Подключить в Dom Assisatnt",
+                "createDeviceError": "Произошла ошибка при создании этого устройства в Dom Assistant. "
+            },
+            "description": "Управляйте домашними устройствами Xiaomi с помощью официального хаба",
+            "models": {
+                "motion": "Датчик движения",
+                "temperature": "Датчик температуры",
+                "switch": "Переключатель",
+                "cube": "Куб",
+                "leak": "Датчик протечки",
+                "magnet": "Геркон"
+            }
+        },
+        "caldav": {
+            "shareIntroduction": "Выберите календари, которыми вы хотите поделиться с другими пользователями Dom Assistant этой установки. Если эти календари будут общедоступными, они будут доступны в сценах и отображаться на вкладке календарь для каждого пользователя этой установки.",
+            "services": {
+                "apple": {
+                    "urlInfo": "Укажите URL-адрес по умолчанию, он будет установлен автоматически.",
+                    "passwordInfo": "<a href=\"https://support.apple.com/en-us/HT204397\" target=\"_blank\" rel=\"noopener noreferrer\">Сгенерируйте пароль для конкретного приложения</a> и используйте этот пароль для конкретного приложения вместо пароля вашей учетной записи.",
+                    "name": "iCloud Календарь",
+                    "url": "iCloud URL",
+                    "username": "Apple ID",
+                    "usernameInfo": "Введите ваш Apple ID.",
+                    "password": "Пароль"
+                },
+                "google": {
+                    "passwordInfo": "<a href=\"https://support.google.com/accounts/answer/185833?hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">Сгенерируйте пароль для конкретного приложения</a> и используйте этот пароль для конкретного приложения вместо пароля вашей учетной записи.",
+                    "name": "Google Calendar (устарело)",
+                    "url": "Google Календарь URL",
+                    "urlInfo": "Укажите URL-адрес по умолчанию, он будет установлен автоматически.",
+                    "username": "Email",
+                    "usernameInfo": "Введите свой адрес электронной почты Google.",
+                    "password": "Пароль"
+                },
+                "synology": {
+                    "name": "Synology Календарь",
+                    "url": "Synology CalDAV URL",
+                    "urlInfo": "В приложении Календарь нажмите на 'Учетную запись CalDAV' и скопируйте URL-адрес 'macOS/iOS'.",
+                    "username": "Synology пользователь",
+                    "usernameInfo": "Введите имя пользователя.",
+                    "password": "Пароль",
+                    "passwordInfo": "Введите ваш пароль."
+                },
+                "other": {
+                    "name": "Другое",
+                    "url": "CalDAV URL",
+                    "username": "CalDAV Пользователь",
+                    "password": "CalDAV Пароль"
+                }
+            },
+            "synchronizationInfo": "Calendars синхронизирован каждые 30 минут.",
+            "title": "CalDAV",
+            "accountTab": "Учетная запись",
+            "syncTab": "Синхронизация",
+            "shareTab": "Поделиться",
+            "description": "Синхронизируйте свои календари CalDAV и используйте их в сценах.",
+            "syncIntroduction": "Выберите календари для синхронизации.",
+            "hostLabel": "CalDAV хост",
+            "hostInfo": "Выберите свой узел календаря, чтобы вам помогли во время настройки.",
+            "configurationSuccess": "Авто-конфигурация выполнена.",
+            "accountIntroduction": "Чтобы синхронизировать календарь Dom Assistant с помощью CalDAV, сначала вам понадобится внешний совместимый календарь. Затем введите приведенную ниже конфигурацию."
         }
     },
     "editScene": {
