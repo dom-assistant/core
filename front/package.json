@@ -44,8 +44,8 @@
     "prettier": "^1.17.1"
   },
   "dependencies": {
-    "@gladysassistant/gladys-gateway-js": "^4.8.1",
-    "@gladysassistant/theme-optimized": "^1.0.3",
+    "@domassistant/gateway-js": "^4.0.1",
+    "@domassistant/theme-optimized": "^1.0.1",
     "@jaames/iro": "^5.5.2",
     "@yaireo/tagify": "^4.5.0",
     "apexcharts": "^3.29.0",
@@ -72,6 +72,7 @@
     "react-dnd": "^16.0.1",
     "react-dnd-html5-backend": "^16.0.1",
     "react-dnd-touch-backend": "^16.0.1",
+    "react-live-clock": "^6.1.12",
     "react-select": "^4.3.1",
     "unistore": "^3.5.2",
     "useragent-parser-js": "^1.0.3",

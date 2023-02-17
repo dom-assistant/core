@@ -34,7 +34,7 @@ const Clock = ({ children, ...props }) => (
           <Text
             id="dashboard.boxes.clock.date"
             fields={{ day: props.day, month: props.month, dayNumber: props.dayNumber, year: props.year }}
-          />
+          /> 
         </div>
       </div>
     )}
@@ -65,7 +65,7 @@ class ClockComponent extends Component {
 
     const time = dayjs()
       .locale(this.props.user.language)
-      .format(displaySecond ? 'LTS' : 'LT');
+      .format('HH:mm', displaySecond ? 'LTS' : 'LT');
 
     this.setState({ day, dayNumber, month, year, time });
   };
