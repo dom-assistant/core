@@ -698,7 +698,78 @@
                 "cancelLearnModeButton": "Отменить режим захвата",
                 "skipLearningButton": "Пропустить этот шаг и приступить к следующему",
                 "peripheralNotLearn": "Периферийное устройство не доступно для обучения кодам.",
-                "cancelLearnFailed": "Не удалось отменить режим обучения."
+                "cancelLearnFailed": "Не удалось отменить режим обучения.",
+                "learnAllModeLabel": "Следующее обучение через {{timeLeft}} секунд...",
+                "quitLearnModeLabel": "Остановить обучение",
+                "features": {
+                    "curtain": {
+                        "state": {
+                            "one": "Открыть",
+                            "none": "Стоп",
+                            "other": "Закрыть"
+                        }
+                    },
+                    "siren": {
+                        "binary": {
+                            "none": "Выкл",
+                            "one": "Вкл"
+                        }
+                    },
+                    "light": {
+                        "binary": {
+                            "none": "Выкл",
+                            "one": "Вкл"
+                        },
+                        "temperature": {
+                            "none": "Холодный",
+                            "many": "Теплый"
+                        },
+                        "brightness": {
+                            "none": "Меньше",
+                            "many": "Больше"
+                        }
+                    },
+                    "switch": {
+                        "binary": {
+                            "none": "Выкл",
+                            "one": "Вкл"
+                        },
+                        "dimmer": {
+                            "none": "Меньше",
+                            "many": "Больше"
+                        }
+                    },
+                    "shutter": {
+                        "state": {
+                            "none": "Стоп",
+                            "one": "Открыть",
+                            "other": "Закрыть"
+                        }
+                    },
+                    "television": {
+                        "binary": {
+                            "none": "Выкл",
+                            "one": "Вкл"
+                        },
+                        "volume": {
+                            "none": "Тише",
+                            "many": "Громче"
+                        }
+                    }
+                },
+                "learnFailed": "Не удалось войти в режим обучения.",
+                "selectFeatureLabel": "Выберите функцию в списке или нажмите кнопку ниже, чтобы перейти в режим обучения. Режим обучения позволяет вам сохранять все команды, одну за другой, автоматизированным способом.",
+                "selectedFeatureLabel": "Выбранная функция",
+                "selectActionLabel": "Функция <b>{{feature}}</b> выбрана, теперь выберите действие в списке ниже, чтобы включить режим захвата.",
+                "selectedFeatureInfoLabel": "Выбран объект <b>{{feature}}</b>.",
+                "unselectedActionInfoLabel": "Функция <b>{{feature}}</b> выбрана, пожалуйста, выберите действие, чтобы перейти в режим захвата.",
+                "selectedActionInfoLabel": "Выбрана функция <b>{{feature}}</b> с действием <b>{{action}}</b>.",
+                "testError": "При тестировании функции произошла ошибка, пожалуйста, проверьте ваше устройство.",
+                "peripheralSelectLabel": "{{name}} ({{address}})",
+                "testLabel": "Тест",
+                "unselect": "Отменить выбор",
+                "deleteLabel": "Удалить",
+                "learnAllLabel": "Изучить все функции"
             },
             "title": "Broadlink",
             "description": "Контроль над уcтройствами Broadlink.",
@@ -735,6 +806,9 @@
                 "editButton": "Редактировать",
                 "featuresLabel": "Функции"
             }
+        },
+        "xiaomi": {
+            "title": "Xiaomi Home"
         }
     },
     "editScene": {
