@@ -1,4 +1,4 @@
-import GladysGatewayClient from '@gladysassistant/gladys-gateway-js';
+import GladysGatewayClient from '@domassistant/gateway-js';
 
 import config from '../config';
 import { Dispatcher } from './Dispatcher';

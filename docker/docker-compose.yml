@@ -1,17 +1,18 @@
 version: '3'
 
 services:
-  gladys:
-    image: gladysassistant/gladys:v4
+  dass:
+    image: domassistant/dass:v1
     restart: always
     privileged: true
-    network: host
+    networks: 
+      - host
     environment:
       NODE_ENV: production
-      SQLITE_FILE_PATH: /var/lib/gladysassistant/gladys-production.db
+      SQLITE_FILE_PATH: /var/lib/domassistant/dass-production.db
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - /var/lib/gladysassistant:/var/lib/gladysassistant
+      - /var/lib/domassistant:/var/lib/domassistant
       - /dev:/dev
     ports:
       - '80:1443'

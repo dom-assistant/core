@@ -9,8 +9,8 @@ COPY ./server/utils /json-files/server/utils
 
 
 # STEP 3
-# Gladys Bundle
-FROM node:18-alpine as gladys
+# Dom Assistant Bundle
+FROM node:18-alpine as dass
 
 # System dependencies
 RUN apk add --no-cache \
@@ -35,14 +35,14 @@ RUN apk add --no-cache --virtual .build-deps make gcc g++ python3 git libffi-dev
     && apk del .build-deps
 
 # Copy builded front
-COPY ./static /src/server/static
+COPY ./server/static /src/server/static
 # Copy codebase
 COPY . /src
 
 ENV NODE_ENV production
-ENV SERVER_PORT 80
+ENV SERVER_PORT 8232
 
 # Export listening port
-EXPOSE 80
+EXPOSE 8232
 
 CMD ["npm" ,"run", "start:prod"]

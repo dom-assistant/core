@@ -2,7 +2,7 @@ ARG TARGET
 ARG VERSION
 ARG BUILD_DATE
 
-FROM $TARGET/node:18-alpine
+FROM node:18-alpine
 
 LABEL \
   org.label-schema.build-date=$BUILD_DATE \
@@ -18,11 +18,11 @@ WORKDIR /tmp
 # Install Bluez dependencies
 RUN apk add --no-cache bluez
 
-# Install Gladys
+# Install Dom Assistant
 RUN mkdir /src
 WORKDIR /src
 ADD . /src
-COPY ./static /src/server/static
+COPY ./server/static /src/server/static
 WORKDIR /src/server
 RUN apk add --no-cache --virtual .build-deps make gcc g++ python3 git libffi-dev linux-headers \
     && npm ci --unsafe-perm --production \

@@ -1,4 +1,4 @@
-const GladysGatewayClient = require('@gladysassistant/gladys-gateway-js');
+const GladysGatewayClient = require('@domassistant/gateway-js');
 const { webcrypto } = require('crypto');
 
 const logger = require('../../utils/logger');
