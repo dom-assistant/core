@@ -1,6 +1,6 @@
 {
     "global": {
-        "logoAlt": "Dass logo",
+        "logoAlt": "Dom Assistant logo",
         "needHelpText": "Нужна помощь? <a href=\"https://community.gladysassistant.com/\" target=\"_blank\" rel=\"noopener noreferrer\"> Форум Dom Assisatnt</a>.",
         "new": "Новый",
         "orderDirAsc": "A - Z",
@@ -885,7 +885,118 @@
             "hostLabel": "CalDAV хост",
             "hostInfo": "Выберите свой узел календаря, чтобы вам помогли во время настройки.",
             "configurationSuccess": "Авто-конфигурация выполнена.",
-            "accountIntroduction": "Чтобы синхронизировать календарь Dom Assistant с помощью CalDAV, сначала вам понадобится внешний совместимый календарь. Затем введите приведенную ниже конфигурацию."
+            "accountIntroduction": "Чтобы синхронизировать календарь Dom Assistant с помощью CalDAV, сначала вам понадобится внешний совместимый календарь. Затем введите приведенную ниже конфигурацию.",
+            "synchronizationDefaultError": "При попытке синхронизации произошла ошибка.",
+            "synchronizationBadCredentialsError": "Служба еще не настроена, введите свои параметры CalDAV и нажмите \"Сохранить\".",
+            "synchronizationRequestEventsError": "Не удается получить события, проверьте свою конфигурацию и состояние сервера CalDAV.",
+            "configurationDefaultError": "Во время автоматической настройки произошла ошибка.",
+            "configurationBadCredentialsError": "Проверьте свое имя пользователя / пароль.",
+            "buttonSync": "Синхронизировать",
+            "configurationBadUrlError": "Проверьте URL-адрес вашего сервера CalDAV.",
+            "configurationRetrievePrincipalUrlError": "Не удается получить основной URL-адрес вашей учетной записи, проверьте настройки и статус сервера CalDAV.",
+            "configurationRetrieveHomeUrlError": "Не удается получить домашний URL вашей учетной записи, проверьте настройки и статус сервера CalDAV.",
+            "cleanUpSuccess": "Очистка завершена.",
+            "cleanUpError": "При попытке очистки произошла ошибка.",
+            "synchronizationSuccess": "Синхронизация завершена.",
+            "synchronizationError": "Проверьте состояние сервера CalDAV.",
+            "synchronizationRequestCalendarsError": "Не удается получить календари, проверьте свою конфигурацию и состояние сервера CalDAV.",
+            "synchronizationRequestChangesError": "Не удается получить изменения, проверьте свою конфигурацию и состояние сервера CalDAV.",
+            "synchronizationNeeded": "Первая синхронизация необходима для составления списка ваших календарей.",
+            "calendarChoiceSuccess": "Ваш выбор был сохранен.",
+            "calendarChoiceError": "При сохранении произошла ошибка.",
+            "buttonSave": "Сохранить",
+            "buttonCleanUp": "Очистить"
+        },
+        "bluetooth": {
+            "title": "Bluetooth",
+            "description": "Управляйте своими устройствами Bluetooth и обнаруживайте свое присутствие.",
+            "deviceTab": "Устройства",
+            "discoverTab": "Обнаруживать",
+            "setupTab": "Датчик присутствия",
+            "bluetoothNotReadyError": "Устройство Bluetooth недоступно, пожалуйста, проверьте, что оно включено.",
+            "device": {
+                "title": "Устройства Bluetooth",
+                "search": "Поиск устройств",
+                "noDevices": "Пока не добавлено никаких устройств Bluetooth.",
+                "nameLabel": "Название",
+                "namePlaceholder": "Введите имя устройства",
+                "roomLabel": "Комната",
+                "externalIdLabel": "Внешний ID",
+                "manufacturerLabel": "Вендор",
+                "modelLabel": "Модель",
+                "presenceSensorLabel": "Используйте это устройство в качестве датчика присутствия",
+                "featuresLabel": "Функции",
+                "featureNamePlaceholder": "Введите название функции",
+                "saveButton": "Сохранить",
+                "deleteButton": "Удалить",
+                "editButton": "Редактировать"
+            },
+            "discover": {
+                "title": "Обнаружение Bluetooth",
+                "scanButton": "Сканировать",
+                "noDeviceFound": "Устройство Bluetooth не обнаружено.",
+                "deviceCreatedSuccess": "Устройство было успешно добавлено",
+                "notManagedByBluteoothButton": "Управляется службой \"{{service}}\"",
+                "notManagedByBluteooth": "Вы не можете управлять этим устройством здесь, так как оно уже управляется службой \"{{service}}\".",
+                "saveSuccess": "Устройство Bluetooth успешно создано.",
+                "saveError": "Произошла ошибка при создании устройства.",
+                "peripheral": {
+                    "title": "Конфигурация периферийного устройства Bluetooth",
+                    "createLabel": "Создать",
+                    "cancelLabel": "Отмена",
+                    "successLabel": "Сделано",
+                    "notAvailable": "Периферийное устройство недоступно, пожалуйста, просканируйте еще раз."
+                },
+                "createDeviceInDass": "Подключайтесь в Dom Assistant",
+                "updateDeviceInDass": "Обновление в Dom Assistant",
+                "createDeviceError": "Произошла ошибка при создании этого устройства в Dom Assistant. "
+            },
+            "setup": {
+                "title": "Сканер присутствия",
+                "noConfigLabel": "Конфигурация не загружена, пожалуйста, повторите попытку.",
+                "errorLabel": "При загрузке конфигурации произошла ошибка.",
+                "presenceScannerFrequencyLabel": "Интервал сканирования",
+                "presenceScannerFrequencyUnit": "минуты",
+                "saveLabel": "Сохранить конфигурацию",
+                "presenceScannerStatusLabel": "Включить или отключить сканер присутствия",
+                "presenceScannerFrequencyError": "Принимаются только целые числа.",
+                "presenceScannerButton": "Сканируйте наличие устройства прямо сейчас",
+                "presenceScannerDescription": "Функция сканера присутствия выполняет сканирование по Bluetooth с определенным интервалом. Когда устройство обнаружено, оно будет помечено как \"замеченное\" в Dom Assistant. В автоматизации вы можете создать триггер для этого изменения состояния, чтобы установить вас дома, например, при обнаружении устройства дома."
+            }
+        },
+        "eWeLink": {
+            "title": "eWeLink",
+            "description": "Управляйте своими устройствами eWeLink (работает с облаком)",
+            "deviceTab": "Устройства",
+            "discoverTab": "eWeLink обнаружение",
+            "setupTab": "Настройка",
+            "nameLabel": "Имя устройства",
+            "namePlaceholder": "Введите название устройства",
+            "modelLabel": "Модель",
+            "roomLabel": "Комната",
+            "saveButton": "Сохранить",
+            "updateButton": "Обновить",
+            "alreadyCreatedButton": "Уже создано",
+            "deleteButton": "Удалить",
+            "status": {
+                "setupPageLink": "Страница конфигурации eWeLink.",
+                "online": "Он-лайн",
+                "offline": "Оф-лайн",
+                "notConnected": "Dom Assistant не удалось подключиться к учетной записи web Link cloud, пожалуйста, перейдите на "
+            },
+            "device": {
+                "search": "Поисковые устройства",
+                "editButton": "Редактировать",
+                "featuresLabel": "Функции",
+                "updates": "Проверить обновления",
+                "noDeviceFound": "Не найдено устройств eWeLink.",
+                "title": "Устройства в Dom Assistant"
+            },
+            "discover": {
+                "title": "Устройства найденные в вашем eWeLink аккаунте"
+            },
+            "discoverDeviceDescr": "Автоматическое сканирование устройств eWeLink",
+            "unmanagedModelButton": "Модель не управляемая или недоступная"
         }
     },
     "editScene": {
@@ -1068,7 +1179,7 @@
     },
     "device": {
         "noFeatures": "Нет функций",
-        "tooMuchStatesToDelete": "Это устройство имеет {{count}} состояний в базе данных. Чтобы ваш экземпляр Dom Assisatant не работал медленно при их удалении, мы начали медленное удаление этих состояний в фоновом режиме. Вы можете вернуться, чтобы удалить это устройство позже, когда оно больше не будет иметь никаких состояний. Чтобы следить за заданием на удаление, <a href=\"/dashboard/settings/jobs\">нажмите здесь</a>."
+        "tooMuchStatesToDelete": "This device has {{count}} states in database. To prevent your Dom Assistant instance to be slow while deleting them, we've started a delete of those states slowly in background. You can come back to delete this device later when the device will not have any states anymore. To follow the delete job, <a href=\"/dashboard/settings/jobs\">click here</a>."
     },
     "newDashboard": {
         "cardTitle": "Создать новую панель",
