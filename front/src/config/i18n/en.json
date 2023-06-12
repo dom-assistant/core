@@ -239,7 +239,6 @@
         "editDeviceFeaturesLabel": "Select the devices you want to display. Only lights / sensors are showed here.",
         "noValue": "No value recorded",
         "deviceTitle": "{{name}} - {{type}}",
-        "noDevices": "Looks you don't have any devices in your house!<br/>Define your device in the integration page.",
         "addButton": "+",
         "substractButton": "-"
       },
@@ -340,8 +339,6 @@
       "title": "Integrations",
       "subtitle": "{{length}} of {{total}} integrations",
       "searchPlaceholder": "Search integrations",
-      "restartButton": "Restart",
-      "stopButton": "Stop",
       "menu": {
         "all": "All integrations",
         "device": "Devices",
@@ -1218,6 +1215,13 @@
         "textPlaceholder": "Message text",
         "explanationText": "To inject a variable in the text, press '{{'. To set a variable value, you need to use the 'Get device value' box before this one."
       },
+      "messageCameraSend": {
+        "userLabel": "User",
+        "cameraLabel": "Camera",
+        "textLabel": "Message",
+        "textPlaceholder": "Message text",
+        "explanationText": "To inject a variable in the text, press '{{'. To set a variable value, you need to use the 'Get device value' box before this one."
+      },
       "turnOnLights": {
         "label": "Select the lights you want to turn on"
       },
@@ -1338,7 +1342,8 @@
         "set-value": "Set device value"
       },
       "message": {
-        "send": "Send Message"
+        "send": "Send Message",
+        "send-camera": "Send a camera image"
       },
       "delay": "Wait",
       "light": {
@@ -1591,7 +1596,6 @@
       "resetPassword": "Reset password",
       "editPreferences": "Edit preferences",
       "resetPasswordButton": "Reset password",
-      "saveButton": "Save",
       "success": "User saved with success !"
     }
   },
@@ -1932,7 +1936,10 @@
     "megabytes-per-second": "Megabytes per second (MB/s)",
     "gigabytes-per-second": "Gigabytes per second (GB/s)",
     "aqi": "Air Quality Index",
-    "microgram-per-cubic-meter": "Microgram per cubic meter (µg/m³)"
+    "microgram-per-cubic-meter": "Microgram per cubic meter (µg/m³)",
+    "square-centimeter": "Square centimer (cm2)",
+    "square-meter": "Square meter (m2)",
+    "square-kilometer": "Square kilometer (km2)"
   },
   "deviceFeatureUnitShort": {
     "celsius": "°C",
@@ -2005,7 +2012,10 @@
     "megabytes-per-second": "MB/s",
     "gigabytes-per-second": "GB/s",
     "aqi": "AQI",
-    "microgram-per-cubic-meter": "µg/m³"
+    "microgram-per-cubic-meter": "µg/m³",
+    "square-centimeter": "cm2",
+    "square-meter": "m2",
+    "square-kilometer": "km2"
   },
   "deviceFeatureAction": {
     "category": {
@@ -2319,6 +2329,10 @@
     "text": {
       "shortCategoryName": "Text",
       "text": "Text"
+    },
+    "surface": {
+      "shortCategoryName": "Surface",
+      "decimal": "Surface"
     },
     "unknown": {
       "shortCategoryName": "Unknown",
