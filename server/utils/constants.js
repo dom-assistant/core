@@ -42,6 +42,19 @@ const BUTTON_STATUS = {
   DISARM: 36,
   ARM_DAY_ZONES: 37,
   ARM_ALL_ZONES: 38,
+  ON_PRESS: 39,
+  ON_HOLD: 40,
+  UP_PRESS: 41,
+  UP_HOLD: 42,
+  DOWN_PRESS: 43,
+  DOWN_HOLD: 44,
+  OFF_PRESS: 45,
+  OFF_HOLD: 46,
+  INITIAL_PRESS: 47,
+  LONG_PRESS: 48,
+  SHORT_RELEASE: 49,
+  LONG_RELEASE: 50,
+  DOUBLE_PRESS: 51,
 };
 
 const COVER_STATE = {
@@ -63,6 +76,11 @@ const MUSIC_PLAYBACK_STATE = {
   PAUSED: 0,
 };
 
+const OPENING_SENSOR_STATE = {
+  OPEN: 0,
+  CLOSE: 1,
+};
+
 const USER_ROLE = {
   ADMIN: 'admin',
   HABITANT: 'habitant',
@@ -72,6 +90,7 @@ const USER_ROLE = {
 const AVAILABLE_LANGUAGES = {
   EN: 'en',
   FR: 'fr',
+  DE: 'de',
 };
 
 const SESSION_TOKEN_TYPES = {
@@ -321,6 +340,7 @@ const ACTIONS = {
     TURN_ON: 'light.turn-on',
     TURN_OFF: 'light.turn-off',
     TOGGLE: 'light.toggle',
+    BLINK: 'light.blink',
   },
   SWITCH: {
     TURN_ON: 'switch.turn-on',
@@ -393,6 +413,7 @@ const DEVICE_FEATURE_CATEGORIES = {
   CHILD_LOCK: 'child-lock',
   AIRQUALITY_SENSOR: 'airquality-sensor',
   AIR_CONDITIONING: 'air-conditioning',
+  ANGLE_SENSOR: 'angle-sensor',
   BATTERY: 'battery',
   BATTERY_LOW: 'battery-low',
   BUTTON: 'button',
@@ -415,6 +436,7 @@ const DEVICE_FEATURE_CATEGORIES = {
   LIGHT_SENSOR: 'light-sensor',
   MOTION_SENSOR: 'motion-sensor',
   MUSIC: 'music',
+  NOISE_SENSOR: 'noise-sensor',
   OPENING_SENSOR: 'opening-sensor',
   PM25_SENSOR: 'pm25-sensor',
   FORMALDEHYD_SENSOR: 'formaldehyd-sensor',
@@ -570,6 +592,7 @@ const DEVICE_FEATURE_TYPES = {
   },
   SPEED_SENSOR: {
     DECIMAL: 'decimal',
+    INTEGER: 'integer',
   },
   UV_SENSOR: {
     INTEGER: 'integer',
@@ -634,6 +657,7 @@ const DEVICE_FEATURE_UNITS = {
   HECTO_PASCAL: 'hPa',
   BAR: 'bar',
   PSI: 'psi',
+  MILLIBAR: 'milli-bar',
   // Light units
   LUX: 'lux',
   // Concentration units
@@ -716,6 +740,8 @@ const DEVICE_FEATURE_UNITS = {
   AQI: 'aqi',
   // For air quality (pm2.5, formaldehyd)
   MICROGRAM_PER_CUBIC_METER: 'microgram-per-cubic-meter',
+  // Noise units
+  DECIBEL: 'decibel',
 };
 
 const WEATHER_UNITS = {
@@ -748,6 +774,7 @@ const DEVICE_FEATURE_UNITS_BY_CATEGORY = {
     DEVICE_FEATURE_UNITS.HECTO_PASCAL,
     DEVICE_FEATURE_UNITS.BAR,
     DEVICE_FEATURE_UNITS.PSI,
+    DEVICE_FEATURE_UNITS.MILLIBAR,
   ],
   [DEVICE_FEATURE_CATEGORIES.TEMPERATURE_SENSOR]: [
     DEVICE_FEATURE_UNITS.CELSIUS,
@@ -915,6 +942,11 @@ const WEBSOCKET_MESSAGE_TYPES = {
     ERROR: 'mqtt.error',
     INSTALLATION_STATUS: 'mqtt.install-status',
   },
+  ZWAVEJS_UI: {
+    CONNECTED: 'zwavejs-ui.connected',
+    ERROR: 'zwavejs-ui.error',
+    SCAN_COMPLETED: 'zwavejs-ui.scan-completed',
+  },
   ZIGBEE2MQTT: {
     DISCOVER: 'zigbee2mqtt.discover',
     STATUS_CHANGE: 'zigbee2mqtt.status-change',
@@ -944,6 +976,14 @@ const WEBSOCKET_MESSAGE_TYPES = {
   TUYA: {
     STATUS: 'tuya.status',
     DISCOVER: 'tuya.discover',
+  },
+  NETATMO: {
+    STATUS: 'netatmo.status',
+    ERROR: {
+      CONNECTED: 'netatmo.error-connected',
+      CONNECTING: 'netatmo.error-connecting',
+      PROCESSING_TOKEN: 'netatmo.error-processing-token',
+    },
   },
   MELCLOUD: {
     STATUS: 'melcloud.status',
@@ -1139,3 +1179,4 @@ module.exports.ALARM_MODES = ALARM_MODES;
 module.exports.ALARM_MODES_LIST = ALARM_MODES_LIST;
 
 module.exports.MUSIC_PLAYBACK_STATE = MUSIC_PLAYBACK_STATE;
+module.exports.OPENING_SENSOR_STATE = OPENING_SENSOR_STATE;

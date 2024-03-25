@@ -61,6 +61,21 @@ addMapping('action', BUTTON_STATUS.DISARM, 'disarm');
 addMapping('action', BUTTON_STATUS.ARM_DAY_ZONES, 'arm_day_zones');
 addMapping('action', BUTTON_STATUS.ARM_ALL_ZONES, 'arm_all_zones');
 
+addMapping('action', BUTTON_STATUS.ON_PRESS, 'on-press');
+addMapping('action', BUTTON_STATUS.ON_HOLD, 'on-hold');
+addMapping('action', BUTTON_STATUS.UP_PRESS, 'up-press');
+addMapping('action', BUTTON_STATUS.UP_HOLD, 'up-hold');
+addMapping('action', BUTTON_STATUS.DOWN_PRESS, 'down-press');
+addMapping('action', BUTTON_STATUS.DOWN_HOLD, 'down-hold');
+addMapping('action', BUTTON_STATUS.OFF_PRESS, 'off-press');
+addMapping('action', BUTTON_STATUS.OFF_HOLD, 'off-hold');
+
+addMapping('action', BUTTON_STATUS.INITIAL_PRESS, 'initial_press');
+addMapping('action', BUTTON_STATUS.LONG_PRESS, 'long_press');
+addMapping('action', BUTTON_STATUS.SHORT_RELEASE, 'short_release');
+addMapping('action', BUTTON_STATUS.LONG_RELEASE, 'long_release');
+addMapping('action', BUTTON_STATUS.DOUBLE_PRESS, 'double_press');
+
 addMapping('state', COVER_STATE.OPEN, 'OPEN');
 addMapping('state', COVER_STATE.CLOSE, 'CLOSE');
 addMapping('state', COVER_STATE.STOP, 'STOP');

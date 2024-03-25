@@ -61,7 +61,9 @@ const actionsFunc = {
       throw new AbortScene('ACTION_VALUE_NOT_A_NUMBER');
     }
 
-    return self.device.setValue(device, deviceFeature, value);
+    const valueInNumber = Number(value);
+
+    return self.device.setValue(device, deviceFeature, valueInNumber);
   },
   [ACTIONS.LIGHT.TURN_ON]: async (self, action, scope) => {
     await Promise.map(action.devices, async (deviceSelector) => {
@@ -103,6 +105,48 @@ const actionsFunc = {
           DEVICE_FEATURE_TYPES.LIGHT.BINARY,
         );
         await self.device.setValue(device, deviceFeature, deviceFeature.last_value === 0 ? 1 : 0);
+      } catch (e) {
+        logger.warn(e);
+      }
+    });
+  },
+  [ACTIONS.LIGHT.BLINK]: async (self, action, scope) => {
+    const blinkingSpeed = action.blinking_speed;
+    const blinkingTime = action.blinking_time * 1000 + 1;
+    let blinkingInterval;
+    switch (blinkingSpeed) {
+      case 'slow':
+        blinkingInterval = 1000;
+        break;
+      case 'medium':
+        blinkingInterval = 500;
+        break;
+      case 'fast':
+        blinkingInterval = 200;
+        break;
+      default:
+        blinkingInterval = 200;
+        break;
+    }
+    await Promise.map(action.devices, async (deviceSelector) => {
+      try {
+        const device = self.stateManager.get('device', deviceSelector);
+        const deviceFeature = getDeviceFeature(
+          device,
+          DEVICE_FEATURE_CATEGORIES.LIGHT,
+          DEVICE_FEATURE_TYPES.LIGHT.BINARY,
+        );
+        const oldValue = deviceFeature.last_value;
+        let newValue = 0;
+        /* eslint-disable no-await-in-loop */
+        // We want this loops to be sequential
+        for (let i = 0; i < blinkingTime; i += blinkingInterval) {
+          newValue = 1 - newValue;
+          await self.device.setValue(device, deviceFeature, newValue);
+          await Promise.delay(blinkingInterval);
+        }
+        /* eslint-enable no-await-in-loop */
+        await self.device.setValue(device, deviceFeature, oldValue);
       } catch (e) {
         logger.warn(e);
       }
